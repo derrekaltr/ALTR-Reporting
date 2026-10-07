@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "onlyfans": {
+      "type": "http",
+      "url": "https://app.onlyfansapi.com/mcp/onlyfans-mcp",
+      "headers": { "Authorization": "Bearer PASTE-YOUR-ONLYFANSAPI-KEY-HERE" }
+    }
+  }
+}

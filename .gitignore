@@ -1,0 +1,9 @@
+.mcp.json
+.env*
+WORK/*/data/
+WORK/*/qa/
+WORK/*/index.html
+WORK/*/print.html
+.vercel
+__pycache__/
+.DS_Store

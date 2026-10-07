@@ -1,0 +1,240 @@
+openapi: 3.1.0
+info:
+  title: ALTR OnlyFans API (read-only)
+  description: >
+    Trimmed, read-only slice of OnlyFansAPI.com for ALTR Q&A in a Custom GPT. The endpoints and their quirks
+    are documented in CONTEXT/reports-and-data.md. Platform figures are directional; Infloww is the financial
+    record. List endpoints cost 1 credit per 20 results; a 402 means the credit balance is at zero.
+    Auth: API Key, Bearer, in the GPT Action settings.
+  version: "1.0"
+servers:
+  - url: https://app.onlyfansapi.com/api
+paths:
+  /accounts:
+    get:
+      operationId: listAccounts
+      summary: Connected creator accounts. Always call this first; never guess an account id.
+      responses:
+        "200": { description: OK }
+  /{account}/me:
+    get:
+      operationId: getProfile
+      summary: Profile, subscription price, media and fan counts.
+      parameters:
+        - $ref: "#/components/parameters/account"
+      responses:
+        "200": { description: OK }
+  /{account}/statistics/statements/earnings:
+    get:
+      operationId: getEarnings
+      summary: Earnings for a window, total or by type.
+      parameters:
+        - $ref: "#/components/parameters/account"
+        - name: start_date
+          in: query
+          required: true
+          description: "Format: YYYY-MM-DD HH:MM:SS"
+          schema: { type: string }
+        - name: end_date
+          in: query
+          required: true
+          description: "Format: YYYY-MM-DD HH:MM:SS"
+          schema: { type: string }
+        - name: type
+          in: query
+          required: false
+          description: total, subscribes, tips, post, messages or stream.
+          schema: { type: string, enum: [total, subscribes, tips, post, messages, stream] }
+      responses:
+        "200": { description: OK }
+  /{account}/statistics/reach/profile-visitors:
+    get:
+      operationId: getProfileVisitors
+      summary: Profile visits, with topCountries.
+      parameters:
+        - $ref: "#/components/parameters/account"
+        - name: start_date
+          in: query
+          required: false
+          schema: { type: string }
+        - name: end_date
+          in: query
+          required: false
+          schema: { type: string }
+      responses:
+        "200": { description: OK }
+  /{account}/subscribers/statistics:
+    get:
+      operationId: getSubscriberStats
+      summary: Subscriber statistics; type=new for new subs.
+      parameters:
+        - $ref: "#/components/parameters/account"
+        - name: type
+          in: query
+          required: false
+          schema: { type: string }
+        - name: start_date
+          in: query
+          required: false
+          schema: { type: string }
+        - name: end_date
+          in: query
+          required: false
+          schema: { type: string }
+      responses:
+        "200": { description: OK }
+  /{account}/transactions:
+    get:
+      operationId: getTransactions
+      summary: >
+        The ledger. net is to the creator, amount is what the fan paid; drop status undo and pending_return.
+        Paginate via _pagination.next_page.
+      parameters:
+        - $ref: "#/components/parameters/account"
+        - name: limit
+          in: query
+          required: false
+          schema: { type: integer, default: 100 }
+        - name: startDate
+          in: query
+          required: false
+          description: "Format: YYYY-MM-DD"
+          schema: { type: string }
+      responses:
+        "200": { description: OK }
+  /{account}/fans/top:
+    get:
+      operationId: getTopFans
+      summary: Top fans; lifetime when no dates are given.
+      parameters:
+        - $ref: "#/components/parameters/account"
+        - name: by
+          in: query
+          required: false
+          schema: { type: string, default: total }
+        - name: start_date
+          in: query
+          required: false
+          schema: { type: string }
+        - name: end_date
+          in: query
+          required: false
+          schema: { type: string }
+      responses:
+        "200": { description: OK }
+  /{account}/fans/active:
+    get:
+      operationId: getActiveFans
+      summary: >
+        Active subscribed fans. Known trap: this list MISSES real top spenders; true VIP lists come from the
+        transactions ledger.
+      parameters:
+        - $ref: "#/components/parameters/account"
+        - name: filter[total_spent]
+          in: query
+          required: false
+          schema: { type: integer }
+      responses:
+        "200": { description: OK }
+  /{account}/fans/expired:
+    get:
+      operationId: getExpiredFans
+      summary: Expired fans; subscribedOnData.totalSumm is lifetime spend (can be stale for returned fans).
+      parameters:
+        - $ref: "#/components/parameters/account"
+        - name: filter[total_spent]
+          in: query
+          required: false
+          schema: { type: integer }
+      responses:
+        "200": { description: OK }
+  /{account}/engagement/messages/mass-messages:
+    get:
+      operationId: getMassMessages
+      summary: Mass messages (blasts) with sentCount, viewedCount, purchasedCount, price, rawText.
+      parameters:
+        - $ref: "#/components/parameters/account"
+        - name: start_date
+          in: query
+          required: true
+          schema: { type: string }
+        - name: end_date
+          in: query
+          required: true
+          schema: { type: string }
+      responses:
+        "200": { description: OK }
+  /{account}/engagement/messages/direct-messages:
+    get:
+      operationId: getDirectMessages
+      summary: Personal DMs with toUserId, price, purchasedCount; unsent ones have isCanceled.
+      parameters:
+        - $ref: "#/components/parameters/account"
+        - name: start_date
+          in: query
+          required: true
+          schema: { type: string }
+        - name: end_date
+          in: query
+          required: true
+          schema: { type: string }
+      responses:
+        "200": { description: OK }
+  /{account}/chats/{fanId}/messages:
+    get:
+      operationId: getThread
+      summary: >
+        One fan's thread (2 to 3 credits each; at most 15 per conversation). isFromQueue means blast,
+        fromUser.id equal to fanId means the fan wrote it, canPurchase means a PPV still unbought.
+      parameters:
+        - $ref: "#/components/parameters/account"
+        - name: fanId
+          in: path
+          required: true
+          schema: { type: string }
+        - name: limit
+          in: query
+          required: false
+          schema: { type: integer, default: 100 }
+        - name: skip_users
+          in: query
+          required: false
+          schema: { type: string, default: all }
+      responses:
+        "200": { description: OK }
+  /{account}/users/list:
+    get:
+      operationId: getUsersBulk
+      summary: Fan profiles in bulk, ten ids per call, comma separated.
+      parameters:
+        - $ref: "#/components/parameters/account"
+        - name: ids
+          in: query
+          required: true
+          schema: { type: string }
+      responses:
+        "200": { description: OK }
+  /{account}/tracking-links:
+    get:
+      operationId: getTrackingLinks
+      summary: Tracking links for the funnel view.
+      parameters:
+        - $ref: "#/components/parameters/account"
+      responses:
+        "200": { description: OK }
+  /{account}/free-trial-links:
+    get:
+      operationId: getFreeTrialLinks
+      summary: Free trial links for the funnel view.
+      parameters:
+        - $ref: "#/components/parameters/account"
+      responses:
+        "200": { description: OK }
+components:
+  parameters:
+    account:
+      name: account
+      in: path
+      required: true
+      description: Account id, acct_ plus 32 hex characters, from listAccounts.
+      schema: { type: string }
