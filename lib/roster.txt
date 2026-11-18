@@ -15,3 +15,8 @@ naza-weekly|acct_16952e83b9b0478da2b6275931de20cd|Naza|miamigirl26
 naomi-weekly|acct_5fdb9bb3832f473e9c2184557de3be6c|Naomi|bindilondon.vip
 liza-weekly|acct_dce5606804034350a02880909a7f114a|Liza Kovalenko|lizakovalenkoo
 kels-weekly|acct_1798a830f89d4c1dbaf82bd03b7ef23f|Kells|stargirlkels
+anllela-weekly|acct_2cac0cfb75fb44e19b732891498dc559|Anllela|anllelasagra
+jane-m-weekly|acct_ba99f46f45e04d829f291bce9d6189b8|Jane Mautin|janemautin
+lauren-weekly|acct_70a59a6281974408b588fdbeba0323ce|Lauren Blake|laurenblake
+lilia2-weekly|acct_5a3c41679d954d519a018c8e245ed81d|Lilia|lilia_summers
+shayna-weekly|acct_6a723cd212d5453c9633da5493c417a4|Shayna|shaynaholt

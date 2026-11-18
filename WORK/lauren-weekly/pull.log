@@ -1,0 +1,30 @@
+account acct_70a59a6281974408b588fdbeba0323ce @laurenblake
+saved data/me.json  (0 rows)
+saved data/earn7_total.json  (0 rows)
+saved data/earn7_subscribes.json  (0 rows)
+saved data/earn7_tips.json  (0 rows)
+saved data/earn7_post.json  (0 rows)
+saved data/earn7_messages.json  (0 rows)
+saved data/earn7_stream.json  (0 rows)
+saved data/earn14_total.json  (0 rows)
+saved data/earn7_prev_total.json  (0 rows)
+saved data/visitors7.json  (0 rows)
+saved data/subs_new7.json  (0 rows)
+  ...5 pages, 500 items
+  ...10 pages, 1000 items
+saved data/transactions21.json  (1309 rows)
+ledger: 1309 transactions in 14 pages, oldest 2026-10-28
+saved data/mass7.json  (58 rows)
+  ...5 pages, 500 items
+  ...10 pages, 1000 items
+  ...15 pages, 1475 items
+mass messages: 58
+saved data/direct7.json  (1475 rows)
+direct messages: 1475
+saved data/fans_top7_total.json  (0 rows)
+saved data/fans_topall_total.json  (0 rows)
+saved data/fans_active_spent100.json  (760 rows)
+saved data/fans_expired_spent100.json  (305 rows)
+saved data/mass_overview.json  (10 rows)
+saved data/top_message.json  (0 rows)
+done. next: python3 ../../lib/analyze_ledger.py

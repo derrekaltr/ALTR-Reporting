@@ -1,0 +1,25 @@
+account acct_6a723cd212d5453c9633da5493c417a4 @shaynaholt
+saved data/me.json  (0 rows)
+saved data/earn7_total.json  (0 rows)
+saved data/earn7_subscribes.json  (0 rows)
+saved data/earn7_tips.json  (0 rows)
+saved data/earn7_post.json  (0 rows)
+saved data/earn7_messages.json  (0 rows)
+saved data/earn7_stream.json  (0 rows)
+saved data/earn14_total.json  (0 rows)
+saved data/earn7_prev_total.json  (0 rows)
+saved data/visitors7.json  (0 rows)
+saved data/subs_new7.json  (0 rows)
+saved data/transactions21.json  (239 rows)
+ledger: 239 transactions in 3 pages, oldest 2026-10-28
+saved data/mass7.json  (81 rows)
+mass messages: 81
+saved data/direct7.json  (191 rows)
+direct messages: 191
+saved data/fans_top7_total.json  (0 rows)
+saved data/fans_topall_total.json  (0 rows)
+saved data/fans_active_spent100.json  (450 rows)
+saved data/fans_expired_spent100.json  (59 rows)
+saved data/mass_overview.json  (10 rows)
+saved data/top_message.json  (0 rows)
+done. next: python3 ../../lib/analyze_ledger.py

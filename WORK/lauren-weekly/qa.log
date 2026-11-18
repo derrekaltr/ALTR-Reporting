@@ -1,0 +1,59 @@
+index.html: 166 KB
+print.html: 319 KB
+ALTR-lauren-weekly-nov18.pdf: 801 KB
+
+== qa_pdf (must end with 'issues 0') ==
+pages 6
+p1 WRAPPED 19pt 2 lines: A softer week with bigger sales Your typical sale more than doubled
+p1 WRAPPED 10pt 2 lines: on the week before $19,682
+p1 WRAPPED 10pt 2 lines: net this week 139
+p1 WRAPPED 11pt 2 lines: The short version 02
+p1 WRAPPED 11pt 2 lines: The week 03
+p1 WRAPPED 11pt 2 lines: Where it came from 04
+p1 WRAPPED 11pt 2 lines: Fans to know 05
+p1 WRAPPED 11pt 2 lines: Next week 06
+p2 WRAPPED 22pt 2 lines: Everything on one page. Start here.
+p2 WRAPPED 20pt 2 lines: -41.4% Net income went down 41% this week, from $33,614 to $19,682. Th
+p2 WRAPPED 20pt 2 lines: $7,395 What your top five fans spent between them, 38% of the week.
+p2 WRAPPED 20pt 2 lines: 22,560 Profile visits in seven days, and 139 fans bought something.
+p2 WRAPPED 10pt 2 lines: You made $19,682 this week, down 41.4% from $33,614.
+p2 WRAPPED 10pt 2 lines: Your median sale was $50, up from about $18 last week.
+p2 WRAPPED 10pt 3 lines: Thursday November 12 brought in $4,108, the strongest day of the week.
+p2 WRAPPED 10pt 2 lines: The best releases stack from Thursday night into Friday.
+p2 WRAPPED 10pt 2 lines: Offers stay in the $150+ and $100 to 149 ranges that worked.
+p2 WRAPPED 10pt 2 lines: All 0 new fans get a personal hello inside two days.
+p3 WRAPPED 22pt 2 lines: A quieter week, bigger sales
+p3 WRAPPED 9pt 7 lines: Wed 11 Thu 12 Fri 13 Sat 14 Sun 15 Mon 16 Tue 17
+p3 WRAPPED 9pt 2 lines: net per day 139
+p3 WRAPPED 9pt 2 lines: fans bought something $50
+p3 WRAPPED 9pt 2 lines: median purchase 22,560
+p3 WRAPPED 10pt 2 lines: The one that landed best went out Thursday at $180 and was bought 3 ti
+p4 WRAPPED 22pt 2 lines: Messages first. 94% of net.
+p4 WRAPPED 10pt 4 lines: 1 Nov 11 $376 2%
+p4 WRAPPED 10pt 4 lines: 2 Nov 12 $4,108 21%
+p4 WRAPPED 10pt 4 lines: 3 Nov 13 $2,730 14%
+p4 WRAPPED 10pt 4 lines: 4 Nov 14 $1,720 9%
+p4 WRAPPED 10pt 4 lines: 5 Nov 15 $861 4%
+p4 WRAPPED 10pt 4 lines: 6 Nov 16 $2,024 10%
+p4 WRAPPED 10pt 4 lines: 7 Nov 17 $3,438 17%
+p4 WRAPPED 9pt 2 lines: gross before platform fee 94%
+p4 WRAPPED 9pt 2 lines: of net from messages $2,812
+p4 WRAPPED 9pt 2 lines: average day $50
+p5 WRAPPED 22pt 2 lines: The week's top eight, and their stories.
+p5 WRAPPED 10pt 2 lines: $2,239 Bought 1 day ago
+p5 WRAPPED 10pt 2 lines: $1,600 Bought 6 days ago
+p5 WRAPPED 10pt 2 lines: $1,424 Bought 1 day ago
+p5 WRAPPED 10pt 3 lines: 3 buying sessions, top $200 $1,132 Bought 1 day ago
+p5 WRAPPED 10pt 3 lines: 5 buying sessions, top $200 $1,000 Bought 1 day ago
+p5 WRAPPED 10pt 3 lines: 1 buying session, top $199.32 $924 Bought 5 days ago
+p5 WRAPPED 10pt 3 lines: 8 buying sessions, top $174.44 $825 Bought 4 days ago
+p5 WRAPPED 10pt 3 lines: 4 buying sessions, top $200 $632 Bought 4 days ago
+p5 WRAPPED 9pt 2 lines: top five, this week 38%
+p5 WRAPPED 9pt 2 lines: their share of the week $2,239
+p5 WRAPPED 9pt 2 lines: the number one fan $200
+p6 WRAPPED 22pt 2 lines: Open items first. Then next week.
+p6 WRAPPED 10pt 2 lines: figures as the directional view and the ledger as the record.
+p6 WRAPPED 11pt 2 lines: and getting a few more of them back is the whole opportunity.
+issues 0
+
+Now LOOK at every qa/q<N>a.png and q<N>b.png before deploying. The scanner catches what it can; the renders catch the rest.

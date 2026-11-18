@@ -1,0 +1,28 @@
+account acct_2cac0cfb75fb44e19b732891498dc559 @anllelasagra
+saved data/me.json  (0 rows)
+saved data/earn7_total.json  (0 rows)
+saved data/earn7_subscribes.json  (0 rows)
+saved data/earn7_tips.json  (0 rows)
+saved data/earn7_post.json  (0 rows)
+saved data/earn7_messages.json  (0 rows)
+saved data/earn7_stream.json  (0 rows)
+saved data/earn14_total.json  (0 rows)
+saved data/earn7_prev_total.json  (0 rows)
+saved data/visitors7.json  (0 rows)
+saved data/subs_new7.json  (0 rows)
+walk error 503 {"error":"SERVICE_UNAVAILABLE","message":"Requests for this account are temporarily paused while its connection to OnlyFans recovers. This request was not sent.
+saved data/transactions21.json  (200 rows)
+walk error 503 {"error":"SERVICE_UNAVAILABLE","message":"Requests for this account are temporarily paused while its connection to OnlyFans recovers. This request was not sent.
+ledger: 200 transactions in 3 pages, oldest 2026-11-12
+saved data/mass7.json  (0 rows)
+  ...5 pages, 500 items
+mass messages: 0
+saved data/direct7.json  (599 rows)
+direct messages: 599
+saved data/fans_top7_total.json  (0 rows)
+saved data/fans_topall_total.json  (0 rows)
+saved data/fans_active_spent100.json  (781 rows)
+saved data/fans_expired_spent100.json  (397 rows)
+saved data/mass_overview.json  (10 rows)
+saved data/top_message.json  (0 rows)
+done. next: python3 ../../lib/analyze_ledger.py

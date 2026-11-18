@@ -347,7 +347,9 @@ half = (len(DAILY) + 1) // 2
 def day_table(rows, offset):
     out = "".join(f'<tr><td class="n">{offset + i + 1}</td><td class="fan"><b>{DAYNAMES[offset + i]}</b></td>'
                   f'<td class="bar"><span><i style="width:{v / BEST_NET * 100:.0f}%"></i></span></td>'
-                  f'<td class="num">{M(v)}</td><td>{v / NET * 100:.0f}% of the week</td></tr>'
+                  # The column header already says "Of the week"; repeating it in every cell wrapped the word
+                  # 'week' onto its own line once the money column got wide. (Sarah H, Nov 2026.)
+                  f'<td class="num">{M(v)}</td><td>{v / NET * 100:.0f}%</td></tr>'
                   for i, (_, v) in enumerate(rows))
     return f'<table class="qt"><thead><tr><th>No.</th><th>Day</th><th></th><th class="num">Net</th><th>Of the week</th></tr></thead><tbody>{out}</tbody></table>'
 

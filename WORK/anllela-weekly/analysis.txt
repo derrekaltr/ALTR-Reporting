@@ -1,0 +1,62 @@
+{
+ "ledger_net": 14413,
+ "window_net": 14413,
+ "prev_net": 0,
+ "change_pct": null,
+ "paying_fans_ledger": 90,
+ "paying_fans_window": 90,
+ "undo_n": 2,
+ "undo_net": 173,
+ "cohort_n": 97,
+ "cohort_net_window": 6887,
+ "cohort_net_ledger": 6887,
+ "top10_share_window": 62.8
+}
+window {'days': 7, 'net': 14413, 'net_day': 2059, 'msg': 14212, 'tips': 186, 'subs': 0, 'n_msg': 176, 'n_tip': 21, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 90, 'median_ticket': 87.77, 'avg_ticket': 91.36}
+previous {'days': 7, 'net': 0, 'net_day': 0, 'msg': 0, 'tips': 0, 'subs': 0, 'n_msg': 0, 'n_tip': 0, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 0, 'median_ticket': 0, 'avg_ticket': 0}
+mass {'n': 0, 'per_day': 0.0, 'paid': 0, 'sends': 0, 'views': 0, 'view_rate': 0, 'purchases': 0, 'gross': 0}
+dm {'sent': 588, 'per_day': 84.0, 'bought': 183, 'rate': 31.1, 'gross': 18733, 'median_price': 54.489999999999995, 'fans_reached': 295, 'unsent': 11}
+
+cohort (97):
+ 178377953 John               life=      0 ledger=  3473 win= 3473 prev=    0 last=0.1d sub=None max=200.0 sess=2
+  68073511 TD                 life=      0 ledger=  1956 win= 1956 prev=    0 last=0.7d sub=None max=200.0 sess=1
+  14631701 Carl               life=   1032 ledger=   788 win=  788 prev=    0 last=2.6d sub=True max=199.99 sess=1
+   5898671 Vroom!             life=  14051 ledger=   572 win=  572 prev=    0 last=0.8d sub=True max=200.0 sess=4
+   4048721 Mechanic1218       life=   5937 ledger=    99 win=   99 prev=    0 last=2.8d sub=True max=123.57 sess=1
+  11548676 Kkma               life=   6367 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   8965638 Kevin              life=   2937 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+    788743 u788743            life=   2826 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  14365961 Tarzan             life=   3007 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+     38666 MrBig              life=   1057 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  18884107 Chaz Alexander     life=   3273 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   6209548 u6209548           life=   1205 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+   6245644 u6245644           life=   2404 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  18893843 Shane              life=   4156 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   3659541 Matt               life=   4267 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   6149914 Mirage2002         life=   1135 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+  10534176 PJJ                life=   1112 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   5872161 CdnHdog            life=   1665 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  18442274 Steve              life=   8058 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   2405153 u2405153           life=   1117 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+  10190117 u10190117          life=  11869 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  10698794 Andrew             life=   2116 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  19463468 Steven             life=   1493 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   1247023 Danny              life=   4916 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+   2879539 Foxy               life=   2776 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   7055926 F.u.o              life=   5314 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   2661944 Sebastian          life=   1995 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  10938425 CH0NG0             life=   2152 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  15328569 kj1                life=   1191 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   2145084 Roberto00t         life=   1358 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   5313340 u5313340           life=   3505 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   5315649 Mcg                life=  15652 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+     17993 MoBill88           life=   4272 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+   2135625 Mikey Vibes        life=   1487 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+   6438217 u6438217           life=   2046 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   4662348 u4662348           life=   6557 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   6218061 Jon                life=   1622 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   9869138 Jesus              life=   1479 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  19020371 Tom                life=   1433 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  16548439 Flyin Hawaiian     life=   1271 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+
+written data/cohort.json. next: python3 ../../lib/pull_threads.py (then analyze_threads.py)

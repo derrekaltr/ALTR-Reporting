@@ -1,22 +1,62 @@
 {
- "ledger_net": 0,
- "window_net": 0,
- "prev_net": 0,
- "change_pct": null,
- "paying_fans_ledger": 0,
- "paying_fans_window": 0,
- "undo_n": 0,
- "undo_net": 0,
- "cohort_n": 0,
- "cohort_net_window": 0,
- "cohort_net_ledger": 0,
- "top10_share_window": 0
+ "ledger_net": 168596,
+ "window_net": 58890,
+ "prev_net": 67888,
+ "change_pct": -13.3,
+ "paying_fans_ledger": 3563,
+ "paying_fans_window": 538,
+ "undo_n": 29,
+ "undo_net": 876,
+ "cohort_n": 94,
+ "cohort_net_window": 21640,
+ "cohort_net_ledger": 53718,
+ "top10_share_window": 20.1
 }
-window {'days': 7, 'net': 0, 'net_day': 0, 'msg': 0, 'tips': 0, 'subs': 0, 'n_msg': 0, 'n_tip': 0, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 0, 'median_ticket': 0, 'avg_ticket': 0}
-previous {'days': 7, 'net': 0, 'net_day': 0, 'msg': 0, 'tips': 0, 'subs': 0, 'n_msg': 0, 'n_tip': 0, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 0, 'median_ticket': 0, 'avg_ticket': 0}
-mass {'n': 0, 'per_day': 0.0, 'paid': 0, 'sends': 0, 'views': 0, 'view_rate': 0, 'purchases': 0, 'gross': 0}
-dm {'sent': 0, 'per_day': 0.0, 'bought': 0, 'rate': 0, 'gross': 0, 'median_price': 0, 'fans_reached': 0, 'unsent': 0}
+window {'days': 7, 'net': 58890, 'net_day': 8413, 'msg': 50157, 'tips': 4296, 'subs': 4438, 'n_msg': 1064, 'n_tip': 163, 'n_new_subs': 627, 'n_rebills': 248, 'buyers': 538, 'median_ticket': 35.0, 'avg_ticket': 55.47}
+previous {'days': 7, 'net': 67888, 'net_day': 9698, 'msg': 58541, 'tips': 3785, 'subs': 5562, 'n_msg': 1247, 'n_tip': 127, 'n_new_subs': 1086, 'n_rebills': 245, 'buyers': 623, 'median_ticket': 33.33, 'avg_ticket': 56.7}
+mass {'n': 148, 'per_day': 21.1, 'paid': 12, 'sends': 5066366, 'views': 57526, 'view_rate': 1.14, 'purchases': 220, 'gross': 4282}
+dm {'sent': 2609, 'per_day': 372.7, 'bought': 742, 'rate': 28.4, 'gross': 52725, 'median_price': 36.69, 'fans_reached': 1167, 'unsent': 48}
 
-cohort (0):
+cohort (94):
+ 604184295 Jackson Lee        life=      0 ledger=  2621 win= 2488 prev=  133 last=0.6d sub=None max=200.0 sess=13
+ 422818618 Jim                life=      0 ledger=  5851 win=    0 prev=    0 last=18.6d sub=None max=200.0 sess=1
+ 526816163 John               life=      0 ledger=  3593 win= 1086 prev= 1872 last=0.7d sub=None max=120.0 sess=45
+ 599155697 Ben                life=   1440 ledger=  1440 win= 1440 prev=    0 last=2.7d sub=True max=200.0 sess=3
+ 600141177 Traveler12         life=      0 ledger=  1877 win=  957 prev=  920 last=0.7d sub=None max=199.99 sess=6
+ 598733176 The dude           life=   1726 ledger=  1456 win= 1123 prev=  231 last=1.7d sub=False max=200.0 sess=6
+ 383848785 Big Tex            life=      0 ledger=  3682 win=    0 prev= 3682 last=7.1d sub=None max=200.0 sess=2
+ 602937086 Leighton           life=      0 ledger=  1915 win=  814 prev= 1100 last=3.2d sub=None max=200.0 sess=9
+ 604550356 DallasDong         life=      0 ledger=  1165 win= 1165 prev=    0 last=3.3d sub=None max=199.99 sess=3
+ 487922965 Ricky Dennison     life=      0 ledger=  2271 win=  500 prev= 1771 last=0.2d sub=None max=50.0 sess=6
+ 587989823 Zane               life=      0 ledger=  1401 win=  930 prev=  471 last=4.6d sub=None max=199.99 sess=11
+ 250747005 BubbaSpankx        life=      0 ledger=  2062 win=  480 prev= 1307 last=7.0d sub=None max=200.0 sess=6
+ 602606470 Joe                life=    993 ledger=   993 win=  993 prev=    0 last=0.1d sub=True max=200.0 sess=3
+ 599587253 J                  life=      0 ledger=  1570 win=  650 prev=  640 last=3.7d sub=None max=200.0 sess=3
+ 495243885 Joe                life=      0 ledger=  2607 win=    0 prev= 2607 last=9.8d sub=None max=200.0 sess=3
+ 599171267 Chris              life=    857 ledger=   857 win=  844 prev=   13 last=0.8d sub=False max=199.99 sess=8
+ 604348556 Tom Blount         life=      0 ledger=  1337 win=  552 prev=  785 last=4.1d sub=None max=200.0 sess=4
+ 550299631 Rudi               life=      0 ledger=  2398 win=    0 prev=  960 last=13.5d sub=None max=200.0 sess=4
+ 599760594 Tom                life=    848 ledger=   845 win=  765 prev=   80 last=5.3d sub=True max=199.99 sess=3
+ 604360586 Tom                life=      0 ledger=   776 win=  776 prev=    0 last=3.9d sub=None max=200.0 sess=2
+   1881714 u1881714           life=    762 ledger=   762 win=  762 prev=    0 last=3.9d sub=True max=199.99 sess=1
+ 601852502 Jason              life=    757 ledger=   757 win=  757 prev=    0 last=0.6d sub=True max=197.77 sess=3
+ 502489778 The Horse Man      life=      0 ledger=  2265 win=    0 prev=    0 last=20.4d sub=None max=200.0 sess=1
+ 306883818 AMS                life=      0 ledger=   722 win=  650 prev=    0 last=4.2d sub=None max=200.0 sess=3
+ 601519087 Lewis              life=      0 ledger=   659 win=  659 prev=    0 last=0.2d sub=None max=80.0 sess=1
+ 604313711 Bor Mashina        life=      0 ledger=   611 win=  611 prev=    0 last=3.8d sub=None max=200.0 sess=5
+ 160193795 daerne reno        life=      0 ledger=   578 win=  578 prev=    0 last=4.5d sub=None max=200.0 sess=1
+ 604711784 Izzy               life=    543 ledger=   543 win=  543 prev=    0 last=4.6d sub=True max=178.66 sess=1
+  78908056 u78908056          life=      0 ledger=   519 win=  519 prev=    0 last=3.3d sub=None max=199.99 sess=2
+ 158440142 Mark               life=      0 ledger=   516 win=  516 prev=    0 last=4.2d sub=None max=200.0 sess=1
+ 599270183 Rhys Quirk         life=      0 ledger=  1221 win=   64 prev=  357 last=0.7d sub=None max=200.0 sess=5
+ 448186266 Martin Scheungrab  life=      0 ledger=  1235 win=    0 prev= 1235 last=9.7d sub=None max=200.0 sess=3
+  39981128 Shert              life=   1194 ledger=   345 win=  270 prev=   74 last=5.1d sub=True max=155.0 sess=2
+  21107522 Gary Stern         life=   3003 ledger=   619 win=    0 prev=    0 last=19.9d sub=True max=160.0 sess=3
+  25584756 MCKC               life=   1665 ledger=   604 win=    0 prev=  604 last=7.7d sub=True max=196.58 sess=3
+ 299489635 u299489635         life=   1197 ledger=   534 win=    0 prev=   10 last=16.2d sub=True max=170.0 sess=2
+  71197947 u71197947          life=   2181 ledger=   248 win=    0 prev=  112 last=13.7d sub=True max=169.69 sess=2
+  13831067 Nick               life=   2287 ledger=    56 win=   56 prev=    0 last=0.0d sub=False max=70.0 sess=1
+  46338378 Joel               life=   1908 ledger=    35 win=   35 prev=    0 last=4.3d sub=False max=43.33 sess=1
+   2672990 Dan                life=   3644 ledger=    32 win=   20 prev=   13 last=0.8d sub=True max=24.44 sess=3
 
 written data/cohort.json. next: python3 ../../lib/pull_threads.py (then analyze_threads.py)

@@ -31,6 +31,29 @@ def folder_name(display, username):
     return name or username
 
 def sync():
+    """Create a Drive folder for every model we actually report on.
+
+    This used to loop over all connected OnlyFans accounts and name folders from the OnlyFans
+    display name, while deliver() files reports under the roster name. Any difference between the
+    two left an empty orphan folder that looked like a missing report ("Amber" vs "Amber
+    Rodriguez"), and accounts that were connected but never rostered got empty folders too.
+    Driving this from the roster keeps the folder list exactly equal to the reports we produce.
+    """
+    roster = LIB / "roster.txt"
+    made = []
+    for line in roster.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        name = line.split("|")[2]
+        r = rc("mkdir", f"{ROOT_REMOTE}{name}")
+        if r.returncode == 0:
+            made.append(name)
+        else:
+            print(f"  !! mkdir {name}: {r.stderr.strip()[:120]}", file=sys.stderr)
+    print(f"synced {len(made)} model folders under '{ROOT_REMOTE}'")
+
+def _sync_from_accounts_unused():
     made = []
     for a in accounts():
         f = folder_name(a.get("display_name") or a.get("name"), a.get("onlyfans_username") or a.get("username"))

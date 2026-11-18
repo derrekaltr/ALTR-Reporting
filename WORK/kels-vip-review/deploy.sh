@@ -9,9 +9,9 @@ NAME="$(tr -d '[:space:]' < slug.txt)"
 export VERCEL_TELEMETRY_DISABLED=1
 # first deploy links the folder to a project with that exact name; later deploys reuse .vercel/
 if [ ! -d .vercel ]; then
-  vercel link --yes --project "$NAME" >/dev/null 2>&1 || vercel project add "$NAME" && vercel link --yes --project "$NAME"
+  vercel link --yes --project "$NAME" --scope altr-022397ab >/dev/null 2>&1 || (vercel project add "$NAME" --scope altr-022397ab && vercel link --yes --project "$NAME" --scope altr-022397ab)
 fi
-vercel deploy --prod --yes
+vercel deploy --prod --yes --scope altr-022397ab
 echo
 echo "live: https://$NAME.vercel.app   pdf: https://$NAME.vercel.app/$(python3 -c "import json;print(json.load(open('report.json'))['pdf'])")"
 echo "check it on your phone before sending. data/ and qa/ are not deployed (see .vercelignore)."

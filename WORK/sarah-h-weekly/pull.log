@@ -11,36 +11,32 @@ saved data/earn7_prev_total.json  (0 rows)
 saved data/visitors7.json  (0 rows)
 saved data/subs_new7.json  (0 rows)
   ...5 pages, 500 items
-  ...10 pages, 999 items
-  ...15 pages, 1499 items
-  ...20 pages, 1999 items
-  ...25 pages, 2499 items
-  ...30 pages, 2999 items
-  ...35 pages, 3499 items
-  ...40 pages, 3999 items
-  ...45 pages, 4499 items
-  ...50 pages, 4999 items
-  ...55 pages, 5499 items
-  ...60 pages, 5999 items
-saved data/transactions21.json  (6147 rows)
-ledger: 6147 transactions in 62 pages, oldest 2026-10-28
-saved data/mass7.json  (147 rows)
+  ...10 pages, 1000 items
+  ...15 pages, 1500 items
+  ...20 pages, 2000 items
+  ...25 pages, 2500 items
+  ...30 pages, 3000 items
+  ...35 pages, 3500 items
+  ...40 pages, 4000 items
+  ...45 pages, 4500 items
+  ...50 pages, 5000 items
+  ...55 pages, 5500 items
+  ...60 pages, 6000 items
+saved data/transactions21.json  (6148 rows)
+ledger: 6148 transactions in 62 pages, oldest 2026-10-28
+saved data/mass7.json  (148 rows)
   ...5 pages, 500 items
   ...10 pages, 1000 items
   ...15 pages, 1500 items
   ...20 pages, 2000 items
   ...25 pages, 2500 items
-mass messages: 147
-saved data/direct7.json  (2658 rows)
-direct messages: 2658
+mass messages: 148
+saved data/direct7.json  (2657 rows)
+direct messages: 2657
 saved data/fans_top7_total.json  (0 rows)
 saved data/fans_topall_total.json  (0 rows)
-saved data/fans_active_spent100.json  (691 rows)
-!! 402 insufficient credits. Top up at app.onlyfansapi.com before pulling more.
-fans_expired_spent100 error 402 {"error":"ENDPOINT_INSUFFICIENT_CREDIT","message":"Insufficient credits to perform this operation.","description":"You n
-saved data/fans_expired_spent100.json  (307 rows)
-!! 402 insufficient credits. Top up at app.onlyfansapi.com before pulling more.
-saved data/mass_overview.json  (0 rows)  ERROR 402 {"error":"ENDPOINT_INSUFFICIENT_CREDIT","message":"Insufficient credits to perform this operation.","description":"You n
-!! 402 insufficient credits. Top up at app.onlyfansapi.com before pulling more.
-saved data/top_message.json  (0 rows)  ERROR 402 {"error":"ENDPOINT_INSUFFICIENT_CREDIT","message":"Insufficient credits to perform this operation.","description":"You n
+fans_active_spent100 error 429 {"error":"ONLYFANS_COM_RATE_LIMIT_ERROR","message":"OnlyFans-Native Rate limit exceeded.","description":"Osaved data/fans_expired_spent100.json  (694 rows)
+saved data/massaved data/fans_expired_spent100.json  (694 rows)
+saved data/mass_overview.json  (10 rows)
+saved data/top_message.json  (0 rows)
 done. next: python3 ../../lib/analyze_ledger.py

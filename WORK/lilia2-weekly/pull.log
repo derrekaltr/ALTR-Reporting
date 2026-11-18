@@ -1,0 +1,25 @@
+account acct_5a3c41679d954d519a018c8e245ed81d @lilia_summers
+saved data/me.json  (0 rows)
+saved data/earn7_total.json  (0 rows)
+saved data/earn7_subscribes.json  (0 rows)
+saved data/earn7_tips.json  (0 rows)
+saved data/earn7_post.json  (0 rows)
+saved data/earn7_messages.json  (0 rows)
+saved data/earn7_stream.json  (0 rows)
+saved data/earn14_total.json  (0 rows)
+saved data/earn7_prev_total.json  (0 rows)
+saved data/visitors7.json  (0 rows)
+saved data/subs_new7.json  (0 rows)
+saved data/transactions21.json  (116 rows)
+ledger: 116 transactions in 2 pages, oldest 2026-10-28
+saved data/mass7.json  (53 rows)
+mass messages: 53
+saved data/direct7.json  (62 rows)
+direct messages: 62
+saved data/fans_top7_total.json  (0 rows)
+saved data/fans_topall_total.json  (0 rows)
+saved data/fans_active_spent100.json  (180 rows)
+saved data/fans_expired_spent100.json  (36 rows)
+saved data/mass_overview.json  (10 rows)
+saved data/top_message.json  (0 rows)
+done. next: python3 ../../lib/analyze_ledger.py

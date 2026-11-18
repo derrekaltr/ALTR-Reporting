@@ -1,0 +1,41 @@
+{
+ "ledger_net": 9504,
+ "window_net": 2305,
+ "prev_net": 1321,
+ "change_pct": 74.5,
+ "paying_fans_ledger": 32,
+ "paying_fans_window": 13,
+ "undo_n": 0,
+ "undo_net": 0,
+ "cohort_n": 19,
+ "cohort_net_window": 1856,
+ "cohort_net_ledger": 8296,
+ "top10_share_window": 99.0
+}
+window {'days': 7, 'net': 2305, 'net_day': 329, 'msg': 2257, 'tips': 48, 'subs': 0, 'n_msg': 27, 'n_tip': 4, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 13, 'median_ticket': 50.0, 'avg_ticket': 92.93}
+previous {'days': 7, 'net': 1321, 'net_day': 189, 'msg': 1142, 'tips': 179, 'subs': 0, 'n_msg': 17, 'n_tip': 3, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 11, 'median_ticket': 40.0, 'avg_ticket': 82.56}
+mass {'n': 53, 'per_day': 7.6, 'paid': 0, 'sends': 530272, 'views': 822, 'view_rate': 0.16, 'purchases': 0, 'gross': 0}
+dm {'sent': 59, 'per_day': 8.4, 'bought': 27, 'rate': 45.8, 'gross': 2821, 'median_price': 50.0, 'fans_reached': 24, 'unsent': 3}
+
+cohort (19):
+ 589600674 Just Ted           life=  13331 ledger=  4480 win= 1280 prev=  960 last=3.6d sub=True max=200.0 sess=11
+ 423757367 Frumby99           life=  13454 ledger=  3456 win=  440 prev=    0 last=6.5d sub=True max=200.0 sess=6
+ 188483129 awest42            life=   3378 ledger=    92 win=   80 prev=    0 last=2.1d sub=True max=100.0 sess=2
+ 449154478 Angelo             life=   1448 ledger=   132 win=   48 prev=   56 last=1.7d sub=True max=50.0 sess=6
+  31744362 Al                 life=   1304 ledger=   128 win=    0 prev=    0 last=14.1d sub=True max=85.0 sess=1
+ 327154161 Farnsworth Carlson life=  17855 ledger=     8 win=    8 prev=    0 last=6.4d sub=True max=10.0 sess=1
+ 546692295 Shaun              life=   1168 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 448654157 Caleb              life=   2905 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 136556433 Sparxman9          life=   2626 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 303158806 Jon                life=   1214 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 136421270 joe                life=   1181 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 374788378 Rip_Jojo           life=   2861 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+   8785378 Sunshine           life=   1254 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 538150316 EA                 life=   1179 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 457211373 JeffNorth          life=   2193 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  10526832 brado1324          life=   3003 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 119597299 Chris Martinez     life=   3740 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 518453556 DEM                life=   3869 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 313989054 Jose               life=   1199 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+
+written data/cohort.json. next: python3 ../../lib/pull_threads.py (then analyze_threads.py)

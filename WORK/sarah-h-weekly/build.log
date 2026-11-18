@@ -1,4 +1,1 @@
-Traceback (most recent call last):
-  File "/Users/locklyjailbreak/Documents/altr-reports-kit/WORK/sarah-h-weekly/build_premium.py", line 36, in <module>
-    BEST_I = max(range(len(DAILY)), key=lambda i: DAILY[i][1])
-ValueError: max() iterable argument is empty
+built template.html + print-template.html (pdf will be ALTR-sarah-h-weekly-nov18.pdf). next: python3 ../../lib/build.py
