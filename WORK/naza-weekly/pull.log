@@ -1,0 +1,25 @@
+account acct_16952e83b9b0478da2b6275931de20cd @miamigirl26
+saved data/me.json  (0 rows)
+saved data/earn7_total.json  (0 rows)
+saved data/earn7_subscribes.json  (0 rows)
+saved data/earn7_tips.json  (0 rows)
+saved data/earn7_post.json  (0 rows)
+saved data/earn7_messages.json  (0 rows)
+saved data/earn7_stream.json  (0 rows)
+saved data/earn14_total.json  (0 rows)
+saved data/earn7_prev_total.json  (0 rows)
+saved data/visitors7.json  (0 rows)
+saved data/subs_new7.json  (0 rows)
+saved data/transactions21.json  (50 rows)
+ledger: 50 transactions in 1 pages, oldest 2026-10-26
+saved data/mass7.json  (92 rows)
+mass messages: 92
+saved data/direct7.json  (59 rows)
+direct messages: 59
+saved data/fans_top7_total.json  (0 rows)
+saved data/fans_topall_total.json  (0 rows)
+saved data/fans_active_spent100.json  (39 rows)
+saved data/fans_expired_spent100.json  (7 rows)
+saved data/mass_overview.json  (10 rows)
+saved data/top_message.json  (0 rows)
+done. next: python3 ../../lib/analyze_ledger.py

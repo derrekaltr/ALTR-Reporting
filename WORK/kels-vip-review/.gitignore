@@ -1,0 +1,6 @@
+data/
+qa/
+.vercel
+index.html
+print.html
+.env*

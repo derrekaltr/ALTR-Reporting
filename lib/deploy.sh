@@ -15,3 +15,5 @@ vercel deploy --prod --yes
 echo
 echo "live: https://$NAME.vercel.app   pdf: https://$NAME.vercel.app/$(python3 -c "import json;print(json.load(open('report.json'))['pdf'])")"
 echo "check it on your phone before sending. data/ and qa/ are not deployed (see .vercelignore)."
+python3 ../../lib/deliver.py . || echo "!! Drive upload failed (report still live on Vercel); retry: python3 ../../lib/deliver.py ."
+

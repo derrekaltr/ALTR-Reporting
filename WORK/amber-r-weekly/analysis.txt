@@ -1,0 +1,27 @@
+{
+ "ledger_net": 4656,
+ "window_net": 1381,
+ "prev_net": 2174,
+ "change_pct": -36.5,
+ "paying_fans_ledger": 134,
+ "paying_fans_window": 21,
+ "undo_n": 0,
+ "undo_net": 0,
+ "cohort_n": 5,
+ "cohort_net_window": 0,
+ "cohort_net_ledger": 0,
+ "top10_share_window": 64.5
+}
+window {'days': 7, 'net': 1381, 'net_day': 197, 'msg': 877, 'tips': 192, 'subs': 312, 'n_msg': 26, 'n_tip': 6, 'n_new_subs': 1, 'n_rebills': 25, 'buyers': 21, 'median_ticket': 31.31, 'avg_ticket': 41.77}
+previous {'days': 7, 'net': 2174, 'net_day': 311, 'msg': 1726, 'tips': 184, 'subs': 264, 'n_msg': 34, 'n_tip': 7, 'n_new_subs': 4, 'n_rebills': 18, 'buyers': 25, 'median_ticket': 35.0, 'avg_ticket': 58.25}
+mass {'n': 61, 'per_day': 8.7, 'paid': 1, 'sends': 239020, 'views': 2124, 'view_rate': 0.89, 'purchases': 0, 'gross': 0}
+dm {'sent': 189, 'per_day': 27.0, 'bought': 21, 'rate': 11.1, 'gross': 964, 'median_price': 31.13, 'fans_reached': 140, 'unsent': 0}
+
+cohort (5):
+ 464837127 Carson McCade      life=   3007 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 431834856 Guy with name      life=   1150 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 281578346 Angel              life=   1850 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 353097646 u353097646         life=   2037 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 236049727 Coldturkeyman      life=   1762 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+
+written data/cohort.json. next: python3 ../../lib/pull_threads.py (then analyze_threads.py)

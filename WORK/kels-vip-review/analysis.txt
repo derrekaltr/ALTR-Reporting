@@ -1,0 +1,25 @@
+{
+ "ledger_net": 6524,
+ "window_net": 1697,
+ "prev_net": 3143,
+ "change_pct": -46.0,
+ "paying_fans_ledger": 259,
+ "paying_fans_window": 21,
+ "undo_n": 6,
+ "undo_net": 214,
+ "cohort_n": 3,
+ "cohort_net_window": 0,
+ "cohort_net_ledger": 1484,
+ "top10_share_window": 49.6
+}
+window {'days': 30, 'net': 1697, 'net_day': 57, 'msg': 934, 'tips': 20, 'subs': 743, 'n_msg': 26, 'n_tip': 3, 'n_new_subs': 89, 'n_rebills': 27, 'buyers': 21, 'median_ticket': 25.0, 'avg_ticket': 41.13}
+previous {'days': 30, 'net': 3143, 'net_day': 105, 'msg': 1317, 'tips': 1308, 'subs': 518, 'n_msg': 38, 'n_tip': 38, 'n_new_subs': 78, 'n_rebills': 26, 'buyers': 28, 'median_ticket': 23.34, 'avg_ticket': 43.17}
+mass {'n': 84, 'per_day': 2.8, 'paid': 3, 'sends': 167158, 'views': 9910, 'view_rate': 5.93, 'purchases': 0, 'gross': 0}
+dm {'sent': 118, 'per_day': 3.9, 'bought': 17, 'rate': 14.4, 'gross': 1030, 'median_price': 59.0, 'fans_reached': 60, 'unsent': 5}
+
+cohort (3):
+ 378725709 Dez                life=   8458 ledger=  1484 win=    0 prev= 1412 last=33.9d sub=False max=200.0 sess=34
+    181610 Loni📅🎂             life=   1122 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 289908277 Swagger            life=   1137 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+
+written data/cohort.json. next: python3 ../../lib/pull_threads.py (then analyze_threads.py)

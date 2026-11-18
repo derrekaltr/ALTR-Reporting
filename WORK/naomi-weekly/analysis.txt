@@ -1,0 +1,38 @@
+{
+ "ledger_net": 5540,
+ "window_net": 1100,
+ "prev_net": 2490,
+ "change_pct": -55.8,
+ "paying_fans_ledger": 273,
+ "paying_fans_window": 24,
+ "undo_n": 5,
+ "undo_net": 290,
+ "cohort_n": 16,
+ "cohort_net_window": 0,
+ "cohort_net_ledger": 0,
+ "top10_share_window": 71.6
+}
+window {'days': 7, 'net': 1100, 'net_day': 157, 'msg': 960, 'tips': 0, 'subs': 140, 'n_msg': 38, 'n_tip': 0, 'n_new_subs': 18, 'n_rebills': 23, 'buyers': 24, 'median_ticket': 18.99, 'avg_ticket': 31.59}
+previous {'days': 7, 'net': 2490, 'net_day': 356, 'msg': 2236, 'tips': 31, 'subs': 222, 'n_msg': 70, 'n_tip': 4, 'n_new_subs': 26, 'n_rebills': 36, 'buyers': 42, 'median_ticket': 25.0, 'avg_ticket': 38.3}
+mass {'n': 89, 'per_day': 12.7, 'paid': 0, 'sends': 2086171, 'views': 6133, 'view_rate': 0.29, 'purchases': 0, 'gross': 0}
+dm {'sent': 122, 'per_day': 17.4, 'bought': 26, 'rate': 21.3, 'gross': 886, 'median_price': 19.994999999999997, 'fans_reached': 73, 'unsent': 2}
+
+cohort (16):
+  27092551 Hcli               life=   1143 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+  54247815 T//B               life=   1854 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 324178190 Imonahigh          life=   1202 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 335292110 Matty3             life=   1075 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+  28667411 Jakes456           life=   1077 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 181617492 PA                 life=   1150 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 558699352 Steve              life=   1593 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+  44600794 Tory               life=   1351 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+  72232226 u72232226          life=  12115 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 181320166 Michael            life=   3901 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 194288230 Adam Potts         life=   1218 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+  41611370 Pete               life=   1392 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 274475435 Riley daniel       life=   1353 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+  15478316 Chris              life=   1188 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 242380397 DLKing93           life=   1734 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+  26902845 Isolationship      life=   1069 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+
+written data/cohort.json. next: python3 ../../lib/pull_threads.py (then analyze_threads.py)

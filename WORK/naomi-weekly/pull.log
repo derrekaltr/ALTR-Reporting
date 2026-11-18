@@ -1,0 +1,25 @@
+account acct_5fdb9bb3832f473e9c2184557de3be6c @bindilondon.vip
+saved data/me.json  (0 rows)
+saved data/earn7_total.json  (0 rows)
+saved data/earn7_subscribes.json  (0 rows)
+saved data/earn7_tips.json  (0 rows)
+saved data/earn7_post.json  (0 rows)
+saved data/earn7_messages.json  (0 rows)
+saved data/earn7_stream.json  (0 rows)
+saved data/earn14_total.json  (0 rows)
+saved data/earn7_prev_total.json  (0 rows)
+saved data/visitors7.json  (0 rows)
+saved data/subs_new7.json  (0 rows)
+saved data/transactions21.json  (367 rows)
+ledger: 367 transactions in 4 pages, oldest 2026-10-25
+saved data/mass7.json  (89 rows)
+mass messages: 89
+saved data/direct7.json  (124 rows)
+direct messages: 124
+saved data/fans_top7_total.json  (0 rows)
+saved data/fans_topall_total.json  (0 rows)
+saved data/fans_active_spent100.json  (38 rows)
+saved data/fans_expired_spent100.json  (394 rows)
+saved data/mass_overview.json  (10 rows)
+saved data/top_message.json  (0 rows)
+done. next: python3 ../../lib/analyze_ledger.py

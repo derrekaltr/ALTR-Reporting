@@ -1,0 +1,25 @@
+{
+ "ledger_net": 1202,
+ "window_net": 320,
+ "prev_net": 494,
+ "change_pct": -35.2,
+ "paying_fans_ledger": 23,
+ "paying_fans_window": 13,
+ "undo_n": 0,
+ "undo_net": 0,
+ "cohort_n": 3,
+ "cohort_net_window": 0,
+ "cohort_net_ledger": 0,
+ "top10_share_window": 95.3
+}
+window {'days': 7, 'net': 320, 'net_day': 46, 'msg': 312, 'tips': 9, 'subs': 0, 'n_msg': 17, 'n_tip': 2, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 13, 'median_ticket': 22.0, 'avg_ticket': 21.08}
+previous {'days': 7, 'net': 494, 'net_day': 71, 'msg': 494, 'tips': 0, 'subs': 0, 'n_msg': 17, 'n_tip': 0, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 8, 'median_ticket': 24.32, 'avg_ticket': 36.34}
+mass {'n': 92, 'per_day': 13.1, 'paid': 0, 'sends': 305517, 'views': 2627, 'view_rate': 0.86, 'purchases': 0, 'gross': 0}
+dm {'sent': 59, 'per_day': 8.4, 'bought': 9, 'rate': 15.3, 'gross': 213, 'median_price': 23.12, 'fans_reached': 33, 'unsent': 0}
+
+cohort (3):
+ 159341696 Saucy              life=   2897 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 446985848 Jose alvarez       life=   3677 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 262329678 Nash               life=   1088 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+
+written data/cohort.json. next: python3 ../../lib/pull_threads.py (then analyze_threads.py)

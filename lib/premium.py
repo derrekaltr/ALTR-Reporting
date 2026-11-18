@@ -171,41 +171,41 @@ def web_doc(title, mast_line, body_html, pdf, pdf_download_name, nav_entries, to
 
 # ------------------------------------------------------------------ print blocks
 PX = """
-.cover .nums b{font-size:26pt}.cover .nums span{font-size:9pt}
-.cv-top .hook{margin-top:5mm;font-weight:300;font-size:18pt;line-height:1.2;letter-spacing:-.02em}.cv-top .hook em{display:block;font-style:normal;color:var(--mint)}
+.cover .nums b{font-size:26pt}.cover .nums span{font-size:9.8pt}
+.cv-top .hook{margin-top:5mm;font-weight:360;font-size:18.8pt;line-height:1.2;letter-spacing:-.02em}.cv-top .hook em{display:block;font-style:normal;color:var(--mint)}
 .cover .ghost{position:absolute;right:-26mm;top:18mm;width:150mm;opacity:.045}
 .foot .nx{color:var(--mint)}
 .lad{display:block;width:100%;height:auto;margin-top:2mm;max-width:80mm}
-.lcap{margin-top:1mm;font-family:var(--mono);font-size:6.8pt;color:var(--bone3);white-space:nowrap}.lcap b{font-family:var(--sans);font-weight:300;font-size:12pt;color:var(--bone);margin-right:1.6mm}
+.lcap{margin-top:1mm;font-family:var(--mono);font-size:7.4pt;color:var(--bone3);white-space:nowrap}.lcap b{font-family:var(--sans);font-weight:360;font-size:12.8pt;color:var(--bone);margin-right:1.6mm}
 .know{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
 .kn{border:1px solid var(--line);border-radius:2mm;padding:4mm 4.5mm 3.5mm;display:flex;flex-direction:column}
-.kn h4{font-weight:300;font-size:15pt;letter-spacing:-.02em;line-height:1;margin-top:1.8mm}.kn p{margin-top:2mm;font-size:8.8pt;color:var(--bone2);line-height:1.5}
+.kn h4{font-weight:360;font-size:15.8pt;letter-spacing:-.02em;line-height:1;margin-top:1.8mm}.kn p{margin-top:2mm;font-size:9.6pt;color:var(--bone2);line-height:1.5}
 .asks4{display:grid;grid-template-columns:repeat(2,1fr);gap:3.5mm}
-.a4{border:1px solid var(--line);border-radius:2mm;padding:3.6mm 4mm}.a4 h4{font-weight:500;font-size:10.5pt;margin-top:1mm}.a4 p{margin-top:1.4mm;font-size:9pt;color:var(--bone2);line-height:1.45}
-.warnp{border:1px solid rgba(182,242,229,.45);background:var(--wash);border-radius:2mm;padding:4mm 5mm}.warnp h4{font-weight:500;font-size:11pt}.warnp p{margin-top:1.5mm;font-size:9pt;color:var(--bone2);line-height:1.5}.warnp p + p{margin-top:2mm}
-.qt{width:100%;border-collapse:collapse}.qt th{font-family:var(--mono);font-weight:400;font-size:6.8pt;letter-spacing:.1em;text-transform:uppercase;color:var(--bone3);text-align:left;padding:0 1.6mm 2mm;border-bottom:1px solid var(--line)}
-.qt td{padding:2.2mm 1.6mm;border-bottom:1px solid var(--soft);font-size:9pt;vertical-align:top;line-height:1.45}.qt .n{font-family:var(--mono);font-size:7.5pt;color:var(--mint);width:6mm}
-.qt .fan b{display:block;font-weight:500;font-size:9.6pt;white-space:nowrap}.qt .fan i{display:block;font-style:normal;font-family:var(--mono);font-size:6.6pt;color:var(--bone3);line-height:1.35}
+.a4{border:1px solid var(--line);border-radius:2mm;padding:3.6mm 4mm}.a4 h4{font-weight:500;font-size:11.3pt;margin-top:1mm}.a4 p{margin-top:1.4mm;font-size:9.8pt;color:var(--bone2);line-height:1.45}
+.warnp{border:1px solid rgba(182,242,229,.45);background:var(--wash);border-radius:2mm;padding:4mm 5mm}.warnp h4{font-weight:500;font-size:11.8pt}.warnp p{margin-top:1.5mm;font-size:9.8pt;color:var(--bone2);line-height:1.5}.warnp p + p{margin-top:2mm}
+.qt{width:100%;border-collapse:collapse}.qt th{font-family:var(--mono);font-weight:400;font-size:7.4pt;letter-spacing:.1em;text-transform:uppercase;color:var(--bone3);text-align:left;padding:0 1.6mm 2mm;border-bottom:1px solid var(--line)}
+.qt td{padding:2.2mm 1.6mm;border-bottom:1px solid var(--soft);font-size:9.8pt;vertical-align:top;line-height:1.45}.qt .n{font-family:var(--mono);font-size:8.1pt;color:var(--mint);width:6mm}
+.qt .fan b{display:block;font-weight:500;font-size:10.4pt;white-space:nowrap}.qt .fan i{display:block;font-style:normal;font-family:var(--mono);font-size:7.2pt;color:var(--bone3);line-height:1.35}
 .qt .num{text-align:right;font-family:var(--mono);white-space:nowrap}
 .qt .bar span{display:block;width:16mm;height:1.3mm;border-radius:.7mm;background:rgba(235,236,220,.07)}.qt .bar i{display:block;height:100%;border-radius:.7mm;background:linear-gradient(to right,rgba(182,242,229,.4),#b6f2e5)}
 .body > .lbl{margin-bottom:0;flex:0 0 auto}.qt + .lbl{margin-top:5mm}.qt{flex:0 0 auto}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:4mm;flex:0 0 auto}
 .chips{display:flex;flex-wrap:wrap;gap:2.4mm}
-.chips span{border:1px solid var(--line);border-radius:12mm;padding:1.8mm 4mm;font-size:8.8pt;color:var(--bone2);white-space:nowrap}
+.chips span{border:1px solid var(--line);border-radius:12mm;padding:1.8mm 4mm;font-size:9.6pt;color:var(--bone2);white-space:nowrap}
 .chips span.k{border-color:rgba(182,242,229,.45);color:var(--bone)}
-.pq{border-left:1px solid var(--mint);padding-left:4mm;font-style:italic;font-weight:300;font-size:12.5pt;line-height:1.45;color:var(--bone)}
-.pq cite{display:block;margin-top:1.5mm;font-style:normal;font-family:var(--mono);font-size:7pt;letter-spacing:.14em;text-transform:uppercase;color:var(--bone3)}
+.pq{border-left:1px solid var(--mint);padding-left:4mm;font-style:italic;font-weight:360;font-size:13.3pt;line-height:1.45;color:var(--bone)}
+.pq cite{display:block;margin-top:1.5mm;font-style:normal;font-family:var(--mono);font-size:7.6pt;letter-spacing:.14em;text-transform:uppercase;color:var(--bone3)}
 .thread{border-top:1px solid var(--line);padding:3.6mm 0;display:grid;grid-template-columns:46mm 1fr;gap:6mm}
-.thread h4{font-weight:300;font-size:16pt;letter-spacing:-.02em;line-height:1}.thread h4.sm{font-size:12pt;white-space:nowrap}
-.thread .meta{margin-top:1.6mm;font-family:var(--mono);font-size:6.8pt;color:var(--bone3);line-height:1.6}
-.thread p{font-size:9.2pt;color:var(--bone2);line-height:1.52}.thread p + p{margin-top:1.8mm}
-.thread .q{margin-top:1.8mm;border-left:1px solid var(--mint);padding-left:3mm;font-style:italic;color:var(--bone);font-size:10pt;line-height:1.4}
+.thread h4{font-weight:360;font-size:16.8pt;letter-spacing:-.02em;line-height:1}.thread h4.sm{font-size:12.8pt;white-space:nowrap}
+.thread .meta{margin-top:1.6mm;font-family:var(--mono);font-size:7.4pt;color:var(--bone3);line-height:1.6}
+.thread p{font-size:10pt;color:var(--bone2);line-height:1.52}.thread p + p{margin-top:1.8mm}
+.thread .q{margin-top:1.8mm;border-left:1px solid var(--mint);padding-left:3mm;font-style:italic;color:var(--bone);font-size:10.8pt;line-height:1.4}
 .acct{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
 .ac{border:1px solid var(--line);border-radius:2mm;padding:4mm 4.5mm}
-.ac .tag{font-family:var(--mono);font-size:6.8pt;letter-spacing:.14em;text-transform:uppercase;color:var(--mint)}
-.ac h4{margin-top:1.5mm;font-weight:300;font-size:16pt;letter-spacing:-.02em;white-space:nowrap}
-.ac .fig2{margin-top:1.5mm;font-family:var(--mono);font-size:7.4pt;color:var(--bone3)}
-.ac p{margin-top:2.5mm;font-size:8.8pt;color:var(--bone2);line-height:1.5}
+.ac .tag{font-family:var(--mono);font-size:7.4pt;letter-spacing:.14em;text-transform:uppercase;color:var(--mint)}
+.ac h4{margin-top:1.5mm;font-weight:360;font-size:16.8pt;letter-spacing:-.02em;white-space:nowrap}
+.ac .fig2{margin-top:1.5mm;font-family:var(--mono);font-size:8pt;color:var(--bone3)}
+.ac p{margin-top:2.5mm;font-size:9.6pt;color:var(--bone2);line-height:1.5}
 .nums b,.find b,.qt .num,.kn h4,.chart .cap,.foot span,.lcap,.ac h4{white-space:nowrap}
 .body{gap:4.5mm}
 .body > *{flex:0 0 auto;min-height:0}
@@ -266,13 +266,39 @@ def check_braces(*htmls):
     for h in htmls:
         m = re.search(r"\{[A-Za-z_][A-Za-z_0-9]*\}", h)
         assert not m, f"un-interpolated placeholder in output: {m.group(0)} (an inner string needs an f prefix)"
+        # catch un-rendered helper calls like {M(75)}, {PCT(x,1)}, {N(...)} (a missing f prefix)
+        m2 = re.search(r"\{(?:M|N|PCT|E|S|W|P)\(", h)
+        assert not m2, f"un-interpolated helper call in output: {m2.group(0)}...}} (an inner string needs an f prefix)"
 
 def check_dashes(*htmls):
     for h in htmls:
         assert "—" not in h and " -- " not in h, "em dash found: rewrite the sentence"
 
-def write_outputs(web_html, print_html, pdf_name, title):
+
+def check_dates(*htmls, window_months=()):
+    """Refuse to ship a report whose prose names a month the data does not cover.
+
+    A literal "October 8 to 14" sat in the master template for a month and every later report
+    repeated it over current numbers. Layout and word checks never looked at meaning, so nobody
+    caught it but the reader. (Nov 15 2026.)
+    """
+    if not window_months:
+        return
+    MONTHS = ("January February March April May June July August September October November December").split()
+    allowed = set(window_months)
+    for h in htmls:
+        txt = re.sub(r"<[^>]+>", " ", re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", h, flags=re.S))
+        for m in re.finditer(r"\b(" + "|".join(MONTHS) + r")\s+\d{1,2}\b", txt):
+            month = m.group(1)
+            if month not in allowed:
+                ctx = txt[max(0, m.start() - 60):m.start() + 40].strip()
+                raise AssertionError(
+                    f"report text names {month}, but the data covers {sorted(allowed)}. "
+                    f"Near: ...{ctx}... Fix the source, do not ship a wrong date.")
+
+def write_outputs(web_html, print_html, pdf_name, title, window_months=()):
     check_labels(print_html); check_braces(web_html, print_html); check_dashes(web_html, print_html)
+    check_dates(web_html, print_html, window_months=window_months)
     Path("template.html").write_text(web_html, encoding="utf-8")
     Path("print-template.html").write_text(print_html, encoding="utf-8")
     Path("report.json").write_text(json.dumps({"pdf": pdf_name, "title": title}, indent=1), encoding="utf-8")

@@ -1,0 +1,25 @@
+{
+ "ledger_net": 597,
+ "window_net": 109,
+ "prev_net": 404,
+ "change_pct": -73.1,
+ "paying_fans_ledger": 8,
+ "paying_fans_window": 3,
+ "undo_n": 0,
+ "undo_net": 0,
+ "cohort_n": 3,
+ "cohort_net_window": 0,
+ "cohort_net_ledger": 0,
+ "top10_share_window": 100.0
+}
+window {'days': 7, 'net': 109, 'net_day': 16, 'msg': 25, 'tips': 84, 'subs': 0, 'n_msg': 2, 'n_tip': 2, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 3, 'median_ticket': 15.5, 'avg_ticket': 34.0}
+previous {'days': 7, 'net': 404, 'net_day': 58, 'msg': 380, 'tips': 24, 'subs': 0, 'n_msg': 15, 'n_tip': 2, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 3, 'median_ticket': 25.0, 'avg_ticket': 29.71}
+mass {'n': 55, 'per_day': 7.9, 'paid': 0, 'sends': 293307, 'views': 352, 'view_rate': 0.12, 'purchases': 0, 'gross': 0}
+dm {'sent': 28, 'per_day': 4.0, 'bought': 2, 'rate': 7.1, 'gross': 31, 'median_price': 24.994999999999997, 'fans_reached': 17, 'unsent': 0}
+
+cohort (3):
+ 516572537 Mike from Dallas   life=   1003 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 427176482 Scott              life=   1262 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 423757367 Frumby99           life=  12843 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+
+written data/cohort.json. next: python3 ../../lib/pull_threads.py (then analyze_threads.py)

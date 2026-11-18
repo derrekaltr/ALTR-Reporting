@@ -1,0 +1,220 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Gwen. Weekly report by ALTR</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet"><style>
+@page{size:A4;margin:0}
+:root{--ink:#1d1d1b;--raise:#242422;--line:rgba(235,236,220,.16);--soft:rgba(235,236,220,.08);--bone:#ebecdc;--bone2:rgba(235,236,220,.86);--bone3:rgba(235,236,220,.64);--mint:#b6f2e5;--wash:rgba(182,242,229,.07);--sans:"Archivo","Helvetica Neue",sans-serif;--mono:"Spline Sans Mono","SF Mono",monospace}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:var(--ink)}
+p,li,h2,h3,h4,span,small,blockquote,td{text-wrap:pretty}
+body{color:var(--bone);font-family:var(--sans);font-size:11.3pt;line-height:1.55;font-weight:420;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-font-smoothing:antialiased}
+.pg{width:210mm;height:297mm;padding:13mm 17mm 11mm;display:flex;flex-direction:column;page-break-after:always;break-after:page;overflow:hidden;position:relative}
+.pg:last-child{page-break-after:auto}
+.run{display:flex;justify-content:space-between;align-items:center;padding-bottom:3mm;border-bottom:1px solid var(--line)}
+.run img{height:3.2mm;display:block}.run span{font-family:var(--mono);font-size:7.6pt;letter-spacing:.18em;text-transform:uppercase;color:var(--bone3)}
+.foot{display:flex;justify-content:space-between;gap:6mm;padding-top:3mm;border-top:1px solid var(--line);font-family:var(--mono);font-size:7.6pt;letter-spacing:.14em;text-transform:uppercase;color:var(--bone3)}
+.body{flex:1;display:flex;flex-direction:column;justify-content:space-between;padding:7mm 0 6mm}
+h2{font-weight:360;font-size:21.8pt;line-height:1.08;letter-spacing:-.025em}h2 em{font-style:normal;color:var(--mint);display:block}
+.hd{display:grid;grid-template-columns:34mm 1fr;gap:6mm;padding-bottom:5mm;border-bottom:1px solid var(--line)}
+.hn b{display:block;font-weight:280;font-size:34pt;line-height:.9;letter-spacing:-.04em}
+.hn span{display:block;margin-top:2mm;font-family:var(--mono);font-size:7.6pt;letter-spacing:.16em;white-space:nowrap;text-transform:uppercase;color:var(--bone3)}
+.ht p{margin-top:2.5mm;font-size:11.3pt;color:var(--bone2);max-width:120mm}
+.lbl{font-family:var(--mono);font-size:7.6pt;letter-spacing:.18em;text-transform:uppercase;color:var(--mint)}
+p.tx{font-size:10.8pt;color:var(--bone2);line-height:1.6}p.tx strong{color:var(--bone);font-weight:600}
+.chart{background:var(--raise);border:1px solid var(--soft);border-radius:2mm;padding:4mm 5mm 3mm}
+.chart svg{width:100%;height:auto;display:block}.chart svg text{font-family:var(--mono)}
+.chart .bar{fill:rgba(182,242,229,.9)}.chart .bar.after{fill:rgba(235,236,220,.28)}
+.chart .cap{margin-top:2mm;font-size:9.3pt;color:var(--bone2)}.chart .cap em{font-style:normal;color:var(--mint)}
+.nums{display:grid;gap:5mm}.nums.c4{grid-template-columns:repeat(4,1fr)}.nums.c3{grid-template-columns:repeat(3,1fr)}
+.nums div{border-top:1px solid var(--line);padding-top:2.5mm}
+.nums b{display:block;font-weight:280;font-size:22.8pt;line-height:1;letter-spacing:-.03em;white-space:nowrap}
+.nums span{display:block;margin-top:1.5mm;font-size:9.3pt;color:var(--bone2);line-height:1.4}
+
+.foot .nx{color:var(--mint)}
+.lad{display:block;width:100%;height:auto;margin-top:1.8mm}
+.lcap{margin-top:1mm;font-family:var(--mono);font-size:7.4pt;letter-spacing:.04em;color:var(--bone3);white-space:nowrap}
+.lcap b{font-family:var(--sans);font-weight:360;font-size:12.8pt;letter-spacing:-.02em;color:var(--bone);margin-right:1.6mm}
+.ladcell .lad{margin-top:.5mm}.ladcell span{display:block;margin-top:1.5mm;font-size:9.3pt;color:var(--bone2);line-height:1.35}
+.ladcell span b{display:inline;font-size:9.3pt;font-weight:600;letter-spacing:0;color:var(--bone)}
+.fans .n.top{color:var(--mint)}
+.fans td.bar{padding-right:0}.fans td.bar span{display:block;width:14mm;height:1.3mm;border-radius:.7mm;background:rgba(235,236,220,.07)}.fans td.bar i{display:block;height:100%;border-radius:.7mm;background:linear-gradient(to right,rgba(182,242,229,.4),#b6f2e5)}
+.find div.hi{border-left:1px solid var(--mint);padding-left:3mm;margin-left:-3mm;background:linear-gradient(to right,rgba(182,242,229,.06),transparent 70%)}
+.cover .ghost{position:absolute;right:-26mm;top:18mm;width:150mm;opacity:.045;pointer-events:none}
+.cv-top .hook{margin-top:6mm;font-weight:360;font-size:21.8pt;line-height:1.18;letter-spacing:-.02em;max-width:150mm}
+.cv-top .hook em{display:block;font-style:normal;color:var(--mint)}
+.cv-top .meta:first-child{margin:0 0 3mm}
+/* cover */
+.cover .body{padding-top:12mm}.cover .nums b{font-size:28pt}.cover .nums span{font-size:9.8pt}
+.cv-top h1{font-weight:360;font-size:104pt;line-height:.85;letter-spacing:-.05em}.cv-top h1 i{font-style:normal;color:var(--mint)}
+.cv-top .sub{margin-top:5mm;font-weight:360;font-size:20.8pt;letter-spacing:-.02em}
+.cv-top .meta{margin-top:3mm;font-family:var(--mono);font-size:8.1pt;letter-spacing:.18em;text-transform:uppercase;color:var(--bone3)}
+.letter{display:grid;grid-template-columns:34mm 1fr;gap:6mm;padding:6mm 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.letter p{font-size:12.3pt;line-height:1.65;color:var(--bone2)}.letter p+p{margin-top:3mm}.letter .sig{margin-top:4mm;font-family:var(--mono);font-size:8.1pt;letter-spacing:.18em;text-transform:uppercase;color:var(--bone)}
+.toc{display:grid;grid-template-columns:34mm 1fr;gap:6mm}
+.toc ol{list-style:none}.toc li{display:flex;justify-content:space-between;align-items:baseline;padding:2.2mm 0;border-bottom:1px solid var(--soft);font-size:11.8pt}
+.toc li span{font-family:var(--mono);font-size:8.8pt;color:var(--bone3)}
+
+/* summary */
+.find{display:grid;grid-template-columns:1fr;gap:0}
+.find div{display:grid;grid-template-columns:34mm 1fr;gap:6mm;align-items:baseline;padding:2.6mm 0;border-bottom:1px solid var(--soft)}
+.find b{font-weight:280;font-size:19.8pt;letter-spacing:-.03em;line-height:1;white-space:nowrap}
+.find p{font-size:10.8pt;color:var(--bone2)}
+.know{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
+.kn{border:1px solid var(--line);border-radius:2mm;padding:4mm 4.5mm 3.5mm;display:flex;flex-direction:column}
+.kn h4{font-weight:360;font-size:17.8pt;letter-spacing:-.02em;line-height:1;margin-top:1.8mm}
+.kn p{margin-top:2mm;font-size:9.6pt;color:var(--bone2);line-height:1.5}
+.kn .lad{margin-top:auto;padding-top:3mm}
+.ask{border:1px solid var(--line);border-radius:2mm;padding:4mm 4.5mm;display:flex;flex-direction:column}
+.ask h4{font-weight:500;font-size:11.3pt;line-height:1.25;margin-top:1.5mm}
+.ask p{margin-top:2mm;font-size:9.6pt;color:var(--bone2);line-height:1.5}
+.ask .opt{margin-top:auto;padding-top:3.5mm;display:flex;gap:4mm;font-size:9.3pt;color:var(--bone)}
+.ask .opt span{display:flex;align-items:center;gap:1.8mm;white-space:nowrap}.ask .opt i{width:3.2mm;height:3.2mm;border:1px solid var(--bone3);border-radius:.6mm;display:inline-block}
+.ask .ln{margin-top:4mm;border-bottom:1px solid var(--bone3);height:5mm}
+.wk{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
+.wk div{border-top:1px solid var(--mint);padding-top:2.5mm}.wk h4{font-weight:500;font-size:10.8pt;margin-top:1mm}.wk p{margin-top:1.2mm;font-size:9.6pt;color:var(--bone2);line-height:1.5}
+
+/* table */
+table.fans{width:100%;border-collapse:collapse}
+.fans th{font-family:var(--mono);font-weight:400;font-size:7.1pt;letter-spacing:.1em;text-transform:uppercase;color:var(--bone3);text-align:left;padding:0 1.6mm 2mm;border-bottom:1px solid var(--line);white-space:nowrap}
+.fans td{padding:.62mm 1.6mm;line-height:1.18;border-bottom:1px solid var(--soft);font-size:9.8pt;vertical-align:middle}
+.fans .n{font-family:var(--mono);font-size:8.1pt;color:var(--bone3);width:7mm;padding-left:0}
+.fans .fan b{display:block;font-weight:500;font-size:10pt;white-space:nowrap}.fans .fan i{display:block;font-style:normal;font-family:var(--mono);font-size:7.4pt;color:var(--bone3)}
+.fans .num{text-align:right;font-family:var(--mono);font-size:9.3pt;white-space:nowrap}.fans th.num{text-align:right}
+.fans .num i{font-style:normal;color:var(--bone3);font-size:7.6pt;margin-left:1.5mm}
+.fans .nx{font-size:9.3pt;color:var(--bone2);white-space:nowrap;padding-right:0}
+.fans tr.act .fan b::before{content:"";display:inline-block;width:1.6mm;height:1.6mm;border-radius:50%;background:var(--mint);margin-right:1.8mm;vertical-align:.4mm}
+.key{font-size:9.3pt;color:var(--bone3)}.key i{display:inline-block;width:1.6mm;height:1.6mm;border-radius:50%;background:var(--mint);margin:0 1.5mm .3mm 0;vertical-align:middle}
+
+/* stories */
+.st{display:grid;grid-template-columns:52mm 1fr;gap:6mm;padding:2.2mm 0;border-bottom:1px solid var(--soft)}
+.stl h3{font-weight:360;font-size:15.8pt;letter-spacing:-.02em;line-height:1;display:inline}
+.stl i{display:inline;margin-left:2mm;font-style:normal;font-family:var(--mono);font-size:7.4pt;color:var(--bone3)}
+.stl em{display:block;margin-top:1.5mm;font-style:normal;font-family:var(--mono);font-size:7.4pt;letter-spacing:.14em;text-transform:uppercase;color:var(--mint)}
+.stb{margin-top:1.5mm;display:flex;align-items:baseline;gap:2mm}.stb b{font-weight:280;font-size:15.8pt;letter-spacing:-.03em;white-space:nowrap}.stb span{font-size:8.8pt;color:var(--bone3)}
+.str p{font-size:10.1pt;color:var(--bone2);line-height:1.55}
+.str blockquote{margin-top:1.4mm;font-style:italic;font-weight:360;font-size:11.3pt;color:var(--bone);border-left:1px solid var(--mint);padding-left:3mm}
+.str p.pl{margin-top:1.8mm;color:var(--bone)}
+.cap3{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
+.cap3 div{border-top:1px solid var(--line);padding-top:2.2mm}.cap3 b{display:block;font-weight:500;font-size:10.3pt}.cap3 p{margin-top:1mm;font-size:9.6pt;color:var(--bone2);line-height:1.45}
+
+/* last page */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.plan{display:grid;grid-template-columns:1fr;gap:0}
+.plan>div{display:grid;grid-template-columns:34mm 1fr;gap:6mm;padding:2.8mm 0;border-bottom:1px solid var(--soft)}
+.plan h4{font-weight:500;font-size:11.3pt}.plan p{font-size:10.1pt;color:var(--bone2);line-height:1.5}
+.close{background:var(--mint);color:var(--ink);border-radius:2mm;padding:6mm 7mm;display:grid;grid-template-columns:60mm 1fr;gap:7mm;align-items:center;position:relative;overflow:hidden}
+.close b{display:block;font-weight:280;font-size:36pt;letter-spacing:-.04em;line-height:1}.close small{display:block;margin-top:1.5mm;font-size:9.3pt}
+.close p{font-size:11.3pt;line-height:1.5}.close p strong{font-weight:600}.close .sig{margin-top:2.5mm;font-family:var(--mono);font-size:7.6pt;letter-spacing:.18em;text-transform:uppercase}
+.close img{position:absolute;right:-8mm;bottom:-12mm;width:48mm;opacity:.1}
+
+.cover .nums b{font-size:26pt}.cover .nums span{font-size:9.8pt}
+.cv-top .hook{margin-top:5mm;font-weight:360;font-size:18.8pt;line-height:1.2;letter-spacing:-.02em}.cv-top .hook em{display:block;font-style:normal;color:var(--mint)}
+.cover .ghost{position:absolute;right:-26mm;top:18mm;width:150mm;opacity:.045}
+.foot .nx{color:var(--mint)}
+.lad{display:block;width:100%;height:auto;margin-top:2mm;max-width:80mm}
+.lcap{margin-top:1mm;font-family:var(--mono);font-size:7.4pt;color:var(--bone3);white-space:nowrap}.lcap b{font-family:var(--sans);font-weight:360;font-size:12.8pt;color:var(--bone);margin-right:1.6mm}
+.know{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
+.kn{border:1px solid var(--line);border-radius:2mm;padding:4mm 4.5mm 3.5mm;display:flex;flex-direction:column}
+.kn h4{font-weight:360;font-size:15.8pt;letter-spacing:-.02em;line-height:1;margin-top:1.8mm}.kn p{margin-top:2mm;font-size:9.6pt;color:var(--bone2);line-height:1.5}
+.asks4{display:grid;grid-template-columns:repeat(2,1fr);gap:3.5mm}
+.a4{border:1px solid var(--line);border-radius:2mm;padding:3.6mm 4mm}.a4 h4{font-weight:500;font-size:11.3pt;margin-top:1mm}.a4 p{margin-top:1.4mm;font-size:9.8pt;color:var(--bone2);line-height:1.45}
+.warnp{border:1px solid rgba(182,242,229,.45);background:var(--wash);border-radius:2mm;padding:4mm 5mm}.warnp h4{font-weight:500;font-size:11.8pt}.warnp p{margin-top:1.5mm;font-size:9.8pt;color:var(--bone2);line-height:1.5}.warnp p + p{margin-top:2mm}
+.qt{width:100%;border-collapse:collapse}.qt th{font-family:var(--mono);font-weight:400;font-size:7.4pt;letter-spacing:.1em;text-transform:uppercase;color:var(--bone3);text-align:left;padding:0 1.6mm 2mm;border-bottom:1px solid var(--line)}
+.qt td{padding:2.2mm 1.6mm;border-bottom:1px solid var(--soft);font-size:9.8pt;vertical-align:top;line-height:1.45}.qt .n{font-family:var(--mono);font-size:8.1pt;color:var(--mint);width:6mm}
+.qt .fan b{display:block;font-weight:500;font-size:10.4pt;white-space:nowrap}.qt .fan i{display:block;font-style:normal;font-family:var(--mono);font-size:7.2pt;color:var(--bone3);line-height:1.35}
+.qt .num{text-align:right;font-family:var(--mono);white-space:nowrap}
+.qt .bar span{display:block;width:16mm;height:1.3mm;border-radius:.7mm;background:rgba(235,236,220,.07)}.qt .bar i{display:block;height:100%;border-radius:.7mm;background:linear-gradient(to right,rgba(182,242,229,.4),#b6f2e5)}
+.body > .lbl{margin-bottom:0;flex:0 0 auto}.qt + .lbl{margin-top:5mm}.qt{flex:0 0 auto}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:4mm;flex:0 0 auto}
+.chips{display:flex;flex-wrap:wrap;gap:2.4mm}
+.chips span{border:1px solid var(--line);border-radius:12mm;padding:1.8mm 4mm;font-size:9.6pt;color:var(--bone2);white-space:nowrap}
+.chips span.k{border-color:rgba(182,242,229,.45);color:var(--bone)}
+.pq{border-left:1px solid var(--mint);padding-left:4mm;font-style:italic;font-weight:360;font-size:13.3pt;line-height:1.45;color:var(--bone)}
+.pq cite{display:block;margin-top:1.5mm;font-style:normal;font-family:var(--mono);font-size:7.6pt;letter-spacing:.14em;text-transform:uppercase;color:var(--bone3)}
+.thread{border-top:1px solid var(--line);padding:3.6mm 0;display:grid;grid-template-columns:46mm 1fr;gap:6mm}
+.thread h4{font-weight:360;font-size:16.8pt;letter-spacing:-.02em;line-height:1}.thread h4.sm{font-size:12.8pt;white-space:nowrap}
+.thread .meta{margin-top:1.6mm;font-family:var(--mono);font-size:7.4pt;color:var(--bone3);line-height:1.6}
+.thread p{font-size:10pt;color:var(--bone2);line-height:1.52}.thread p + p{margin-top:1.8mm}
+.thread .q{margin-top:1.8mm;border-left:1px solid var(--mint);padding-left:3mm;font-style:italic;color:var(--bone);font-size:10.8pt;line-height:1.4}
+.acct{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.ac{border:1px solid var(--line);border-radius:2mm;padding:4mm 4.5mm}
+.ac .tag{font-family:var(--mono);font-size:7.4pt;letter-spacing:.14em;text-transform:uppercase;color:var(--mint)}
+.ac h4{margin-top:1.5mm;font-weight:360;font-size:16.8pt;letter-spacing:-.02em;white-space:nowrap}
+.ac .fig2{margin-top:1.5mm;font-family:var(--mono);font-size:8pt;color:var(--bone3)}
+.ac p{margin-top:2.5mm;font-size:9.6pt;color:var(--bone2);line-height:1.5}
+.nums b,.find b,.qt .num,.kn h4,.chart .cap,.foot span,.lcap,.ac h4{white-space:nowrap}
+.body{gap:4.5mm}
+.body > *{flex:0 0 auto;min-height:0}
+.body > .find{margin:3mm 0}.body > .find > div{padding:2.8mm 0}
+.chart,.hd,.nums,.warnp,.two,.acct,.asks4,.know,.wk,.qt,.close,.letter,.toc{flex:0 0 auto}
+
+.ahead{border:1px solid rgba(182,242,229,.45);background:var(--wash);border-radius:2mm;padding:4mm 5mm;margin-top:3mm;flex:0 0 auto}
+.ahead .k{font-family:var(--mono);font-size:7pt;letter-spacing:.14em;text-transform:uppercase;color:var(--mint)}
+.ahead h4{font-weight:500;font-size:11pt;margin-top:1.5mm}.ahead p{margin-top:1.5mm;font-size:9pt;color:var(--bone2);line-height:1.5}
+.cvc{text-align:center;padding-top:2mm}
+.cvc h1{font-weight:360;font-size:76pt;line-height:.85;letter-spacing:-.05em}.cvc h1 i{font-style:normal;color:var(--mint)}
+.cvc .meta{font-family:var(--mono);font-size:8.1pt;letter-spacing:.18em;text-transform:uppercase;color:var(--bone3);margin:3mm 0}
+.cvc .hook{margin:4mm auto 2mm;font-weight:360;font-size:19pt;line-height:1.2;letter-spacing:-.02em;max-width:150mm}
+.cvc .hook em{display:block;font-style:normal;color:var(--mint)}
+.letterc{max-width:152mm;margin:0 auto;text-align:center;padding:4.5mm 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);width:100%;align-self:center}
+.letterc .lbl{margin-bottom:3mm}
+.letterc p{font-size:12.3pt;line-height:1.65;color:var(--bone2)}.letterc p + p{margin-top:3mm}
+.letterc .sig{margin-top:4mm;font-family:var(--mono);font-size:8.1pt;letter-spacing:.18em;text-transform:uppercase;color:var(--bone)}
+.tocc{max-width:118mm;margin:0;width:100%;text-align:left}
+.tocc .lbl{margin-bottom:2mm}
+.tocc ol{list-style:none}.tocc li{display:flex;justify-content:space-between;align-items:baseline;padding:1.7mm 0;border-bottom:1px solid var(--soft);font-size:11.4pt}
+.tocc li span{font-family:var(--mono);font-size:8.6pt;color:var(--bone3)}
+.two .qt td{padding:2mm 1.4mm}
+
+.oip{display:grid;grid-template-columns:1fr 1fr;gap:4mm;flex:0 0 auto}
+.oip.solo{grid-template-columns:1fr}.oip.solo .oc h3{white-space:normal}
+.oc{border:1.5px solid rgba(182,242,229,.6);background:var(--wash);border-radius:2mm;padding:5mm 5.5mm 4.5mm}
+.oc .k{font-family:var(--mono);font-size:7pt;letter-spacing:.14em;text-transform:uppercase;color:var(--mint)}
+.oc h3{font-weight:300;font-size:16.5pt;letter-spacing:-.02em;line-height:1.05;margin-top:2mm;white-space:nowrap}
+.oc p{margin-top:2.5mm;font-size:9.8pt;color:var(--bone);line-height:1.5}
+</style></head><body><section class="pg cover"><img class="ghost" src="__GHOST__" alt=""><header class="run"><img src="__LOGO__" alt="ALTR"><span>Gwen, weekly report</span></header><div class="body"><div class="cvc"><div class="meta">Weekly report, @gwensingervip</div><h1>Gwen<i>.</i></h1>
+<div class="hook">A quieter week, with a strong finish<em>Same people buying, smaller tickets</em></div>
+<div class="meta">Prepared by ALTR for Gwen, November 15, 2026. Confidential.</div></div>
+<div class="letterc"><div class="lbl">Read first</div><p>Seven days, November 8 to 14, read from the live account: every purchase, every day, and the fans behind them. Figures are platform-reported.</p>
+<p>Page two is the short version. The pages after it show the week in detail and what happens next.</p><div class="sig">ALTR</div></div>
+<div class="nums c3"><div><b>-61.0%</b><span>on the week before</span></div><div><b>$587</b><span>net this week</span></div><div><b>18</b><span>fans bought something</span></div></div>
+<div class="tocc"><div class="lbl">Inside</div><ol><li>The short version<span>02</span></li><li>The week<span>03</span></li><li>Where it came from<span>04</span></li><li>Fans to know<span>05</span></li><li>Protection<span>06</span></li><li>Next week<span>07</span></li></ol></div></div><footer class="foot"><span>Prepared by ALTR for Gwen</span><span class="nx">Turn the page, the short version</span><span>01 / 07</span></footer></section><section class="pg "><header class="run"><img src="__LOGO__" alt="ALTR"><span>Gwen, the short version</span></header><div class="body"><div class="hd"><div class="hn"><b>02</b><span>The short version</span></div><div class="ht"><h2>Everything on one page. <em>Start here.</em></h2><p>The week, the fans, and the plan, before the detail.</p></div></div>
+<div><div class="lbl" style="margin-bottom:2mm">What happened</div><div class="find">
+<div class="hi"><b>-61.0%</b><p>Net income went down 61% this week, from $1,507 to $587. Saturday November 14 brought $167, 28% of the week on its own.</p></div>
+<div><b>$300</b><p>What your top five fans spent between them, 51% of the week.</p></div>
+<div><b>3,895</b><p>Profile visits in seven days, and 18 fans bought something.</p></div>
+</div></div>
+<div><div class="lbl" style="margin-bottom:2.5mm">Three fans to know</div><div class="know">
+<div class="kn"><span class="lbl">Frank</span><h4>Frank</h4><p>Frank has been with you 2 years and visited 3 times this week, spending $69, more than anyone else.</p></div>
+<div class="kn"><span class="lbl">Derrick</span><h4>Derrick</h4><p>Derrick has been with you 3 years and made your largest single purchase of the week at $79.88.</p></div>
+<div class="kn"><span class="lbl">Mark</span><h4>Mark</h4><p>Mark is brand new and spent $59 in their first week, which makes them a great person to get to know.</p></div>
+</div></div>
+<div><div class="lbl" style="margin-bottom:2.5mm">Next week</div><div class="wk">
+<div><span class="lbl">Today</span><h4>A warm hello to new faces</h4><p>The best releases stack from Thursday night into Friday.</p></div>
+<div><span class="lbl">This week</span><h4>Larger sets at the right price</h4><p>Offers stay in the $0 to 19 and $40 to 69 ranges that worked.</p></div>
+<div><span class="lbl">All week</span><h4>Build on the rhythm</h4><p>All 8 new fans get a personal hello inside two days.</p></div></div></div></div><footer class="foot"><span>Prepared by ALTR for Gwen</span><span class="nx">Next, the week in detail</span><span>02 / 07</span></footer></section><section class="pg "><header class="run"><img src="__LOGO__" alt="ALTR"><span>Gwen, the week</span></header><div class="body"><div class="hd"><div class="hn"><b>03</b><span>The week</span></div><div class="ht"><h2>A softer week, <em>a strong finish</em></h2><p>Net was $587 against $1,507 the week before, $84 a day.</p></div></div>
+<div class="chart"><svg class="ich" id="p-d" viewBox="0 0 900 430" preserveAspectRatio="xMidYMid meet" role="img"><line x1="76" y1="382.0" x2="896" y2="382.0" stroke="rgba(235,236,220,0.09)"/><text x="68" y="387.6" font-size="16" fill="rgba(235,236,220,0.5)" text-anchor="end">$0</text><line x1="76" y1="210.0" x2="896" y2="210.0" stroke="rgba(235,236,220,0.09)"/><text x="68" y="215.6" font-size="16" fill="rgba(235,236,220,0.5)" text-anchor="end">$100</text><line x1="76" y1="38.0" x2="896" y2="38.0" stroke="rgba(235,236,220,0.09)"/><text x="68" y="43.6" font-size="16" fill="rgba(235,236,220,0.5)" text-anchor="end">$200</text><rect class="bar after" data-meta="{}" x="99.4" y="316.6" width="70.3" height="65.4" rx="1" style="transition-delay:0ms"/><text x="134.6" y="416" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Sun 8</text><rect class="bar after" data-meta="{}" x="216.6" y="309.8" width="70.3" height="72.2" rx="1" style="transition-delay:60ms"/><text x="251.7" y="416" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Mon 9</text><rect class="bar after" data-meta="{}" x="333.7" y="177.3" width="70.3" height="204.7" rx="1" style="transition-delay:120ms"/><text x="368.9" y="416" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Tue 10</text><rect class="bar after" data-meta="{}" x="450.9" y="301.2" width="70.3" height="80.8" rx="1" style="transition-delay:180ms"/><text x="486.0" y="416" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Wed 11</text><rect class="bar after" data-meta="{}" x="568.0" y="179.0" width="70.3" height="203.0" rx="1" style="transition-delay:240ms"/><text x="603.1" y="416" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Thu 12</text><rect class="bar after" data-meta="{}" x="685.1" y="311.5" width="70.3" height="70.5" rx="1" style="transition-delay:300ms"/><text x="720.3" y="416" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Fri 13</text><rect class="bar" data-meta="{}" x="802.3" y="94.8" width="70.3" height="287.2" rx="1" style="transition-delay:360ms"/><text x="837.4" y="416" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Sat 14</text></svg><div class="cap">Net per day, November 8 to 14. <em>Mint is Saturday November 14.</em></div></div>
+<div class="nums c4"><div><b>$84</b><span>net per day</span></div><div><b>18</b><span>fans bought something</span></div><div><b>$14.49</b><span>median purchase</span></div><div><b>3,895</b><span>profile visits</span></div></div>
+<div class="warnp"><h4>Saturday was 28% of the week</h4><p>Saturday November 14 closed at $167 of the week's $587, and the best single hour of the week was 9pm.</p><p>Messages carried $394 of the total and tips $102; the median purchase rose from $48.25 to $14.49.</p></div>
+<div class="acct"><div class="ac"><span class="tag">Personal messages</span><h4>14.0% bought</h4><div class="fig2">100 sent, median price $19</div><p>68 fans heard from you one to one this week, and 14 of those messages were purchased.</p></div>
+<div class="ac"><span class="tag">Mass messages</span><h4>0.4% viewed</h4><div class="fig2">96 sent, 0 purchases</div><p>The one that landed best went out Sunday at $0 and was bought 0 times.</p></div></div></div><footer class="foot"><span>Prepared by ALTR for Gwen</span><span class="nx">Next, where it came from</span><span>03 / 07</span></footer></section><section class="pg "><header class="run"><img src="__LOGO__" alt="ALTR"><span>Gwen, where it came from</span></header><div class="body"><div class="hd"><div class="hn"><b>04</b><span>Where it came from</span></div><div class="ht"><h2>Messages first. <em>67% of net.</em></h2><p>Messages $394, subscriptions $91, tips $102, posts $0, streams $0.</p></div></div>
+<div class="chart"><svg class="ich" id="p-t" viewBox="0 0 900 330" preserveAspectRatio="xMidYMid meet" role="img"><line x1="76" y1="282.0" x2="896" y2="282.0" stroke="rgba(235,236,220,0.09)"/><text x="68" y="287.6" font-size="16" fill="rgba(235,236,220,0.5)" text-anchor="end">$0</text><line x1="76" y1="160.0" x2="896" y2="160.0" stroke="rgba(235,236,220,0.09)"/><text x="68" y="165.6" font-size="16" fill="rgba(235,236,220,0.5)" text-anchor="end">$250</text><line x1="76" y1="38.0" x2="896" y2="38.0" stroke="rgba(235,236,220,0.09)"/><text x="68" y="43.6" font-size="16" fill="rgba(235,236,220,0.5)" text-anchor="end">$500</text><rect class="bar" data-meta="{}" x="108.8" y="89.7" width="98.4" height="192.3" rx="1" style="transition-delay:0ms"/><text x="158.0" y="76.9" font-size="19" fill="#ebecdc" text-anchor="middle">$394</text><text x="158.0" y="316" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Messages</text><rect class="bar after" data-meta="{}" x="272.8" y="237.6" width="98.4" height="44.4" rx="1" style="transition-delay:60ms"/><text x="322.0" y="224.8" font-size="19" fill="#ebecdc" text-anchor="middle">$91</text><text x="322.0" y="316" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Subs</text><rect class="bar after" data-meta="{}" x="436.8" y="232.2" width="98.4" height="49.8" rx="1" style="transition-delay:120ms"/><text x="486.0" y="219.4" font-size="19" fill="#ebecdc" text-anchor="middle">$102</text><text x="486.0" y="316" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Tips</text><rect class="bar after" data-meta="{}" x="600.8" y="282.0" width="98.4" height="1.0" rx="1" style="transition-delay:180ms"/><text x="650.0" y="269.2" font-size="19" fill="#ebecdc" text-anchor="middle">$0</text><text x="650.0" y="316" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Posts</text><rect class="bar after" data-meta="{}" x="764.8" y="282.0" width="98.4" height="1.0" rx="1" style="transition-delay:240ms"/><text x="814.0" y="269.2" font-size="19" fill="#ebecdc" text-anchor="middle">$0</text><text x="814.0" y="316" font-size="17" fill="rgba(235,236,220,0.65)" text-anchor="middle">Streams</text></svg><div class="cap">Net by type. <em>Mint is the largest.</em></div></div>
+<div class="lbl">Every day in the window</div>
+<div class="two"><table class="qt"><thead><tr><th>No.</th><th>Day</th><th></th><th class="num">Net</th><th>Of the week</th></tr></thead><tbody><tr><td class="n">1</td><td class="fan"><b>Nov 8</b></td><td class="bar"><span><i style="width:23%"></i></span></td><td class="num">$38</td><td>6% of the week</td></tr><tr><td class="n">2</td><td class="fan"><b>Nov 9</b></td><td class="bar"><span><i style="width:25%"></i></span></td><td class="num">$42</td><td>7% of the week</td></tr><tr><td class="n">3</td><td class="fan"><b>Nov 10</b></td><td class="bar"><span><i style="width:71%"></i></span></td><td class="num">$119</td><td>20% of the week</td></tr><tr><td class="n">4</td><td class="fan"><b>Nov 11</b></td><td class="bar"><span><i style="width:28%"></i></span></td><td class="num">$47</td><td>8% of the week</td></tr></tbody></table><table class="qt"><thead><tr><th>No.</th><th>Day</th><th></th><th class="num">Net</th><th>Of the week</th></tr></thead><tbody><tr><td class="n">5</td><td class="fan"><b>Nov 12</b></td><td class="bar"><span><i style="width:71%"></i></span></td><td class="num">$118</td><td>20% of the week</td></tr><tr><td class="n">6</td><td class="fan"><b>Nov 13</b></td><td class="bar"><span><i style="width:25%"></i></span></td><td class="num">$41</td><td>7% of the week</td></tr><tr><td class="n">7</td><td class="fan"><b>Nov 14</b></td><td class="bar"><span><i style="width:100%"></i></span></td><td class="num">$167</td><td>28% of the week</td></tr></tbody></table></div>
+<div class="nums c4"><div><b>$734</b><span>gross before platform fee</span></div><div><b>67%</b><span>of net from messages</span></div><div><b>$84</b><span>average day</span></div><div><b>$14.49</b><span>median purchase</span></div></div>
+<div class="warnp"><h4>How to read the figures</h4><p>Figures are platform-reported net, after the platform fee, as the OnlyFans statistics report them. They are here to show the shape of the week; your ALTR statement remains the official record.</p></div></div><footer class="foot"><span>Prepared by ALTR for Gwen</span><span class="nx">Next, three fans to know</span><span>04 / 07</span></footer></section><section class="pg "><header class="run"><img src="__LOGO__" alt="ALTR"><span>Gwen, fans to know</span></header><div class="body"><div class="hd"><div class="hn"><b>05</b><span>Fans to know</span></div><div class="ht"><h2>The week's top eight, <em>and their stories.</em></h2><p>Your top five spent $300 between them, 51% of the week.</p></div></div>
+<div class="lbl">By spend this week</div>
+<table class="qt"><thead><tr><th>No.</th><th>Fan, and the week they had</th><th></th><th class="num">This week</th><th>Last purchase</th></tr></thead><tbody><tr><td class="n">1</td><td class="fan"><b>Frank</b><i>2 years with you, 3 visits this week</i></td><td class="bar"><span><i style="width:100%"></i></span></td><td class="num">$69</td><td>Bought 1 day ago</td></tr><tr><td class="n">2</td><td class="fan"><b>Derrick</b><i>3 years, top single buy this week</i></td><td class="bar"><span><i style="width:93%"></i></span></td><td class="num">$64</td><td>Bought 2 days ago</td></tr><tr><td class="n">3</td><td class="fan"><b>Mark</b><i>New face, first buy this week</i></td><td class="bar"><span><i style="width:86%"></i></span></td><td class="num">$59</td><td>Bought 1 day ago</td></tr><tr><td class="n">4</td><td class="fan"><b>Eric Brisby Andrews</b><i>1 buying session, top $24.56</i></td><td class="bar"><span><i style="width:84%"></i></span></td><td class="num">$58</td><td>Bought 5 days ago</td></tr><tr><td class="n">5</td><td class="fan"><b>u6366824</b><i>1 buying session, top $60</i></td><td class="bar"><span><i style="width:72%"></i></span></td><td class="num">$50</td><td>Bought 4 days ago</td></tr><tr><td class="n">6</td><td class="fan"><b>Tim Voake</b><i>2 buying sessions, top $19.99</i></td><td class="bar"><span><i style="width:48%"></i></span></td><td class="num">$33</td><td>Bought 1 day ago</td></tr><tr><td class="n">7</td><td class="fan"><b>Waynes_world10</b><i>1 buying session, top $38.15</i></td><td class="bar"><span><i style="width:45%"></i></span></td><td class="num">$31</td><td>Bought 4 days ago</td></tr><tr><td class="n">8</td><td class="fan"><b>Ernesto</b><i>2 buying sessions, top $30</i></td><td class="bar"><span><i style="width:35%"></i></span></td><td class="num">$24</td><td>Bought 6 days ago</td></tr></tbody></table>
+<div class="warnp"><h4>Familiar faces to keep close</h4><p>Derrick has been with you for 3 years and spent $64 this week, but their auto-renew is currently off.</p><p>A personal note in the next few days keeps a $1,413 lifetime relationship warm, and we will handle it gently.</p></div>
+<div class="nums c4"><div><b>$300</b><span>top five, this week</span></div><div><b>51%</b><span>their share of the week</span></div><div><b>$69</b><span>the number one fan</span></div><div><b>$56.11</b><span>largest single purchase</span></div></div></div><footer class="foot"><span>Prepared by ALTR for Gwen</span><span class="nx">Next, the protection report</span><span>05 / 07</span></footer></section><section class="pg "><header class="run"><img src="__LOGO__" alt="ALTR"><span>Gwen, protection</span></header><div class="body"><div class="hd"><div class="hn"><b>06</b><span>Protection</span></div><div class="ht"><h2>Your content, <em>kept protected.</em></h2><p>8,709 stolen copies found and removed, 46 of them this week.</p></div></div>
+<div class="nums c4"><div><b>8,709</b><span>stolen copies removed</span></div><div><b>+46</b><span>removed this week</span></div><div><b>1,729</b><span>notices filed, waiting</span></div><div><b>14,055</b><span>cases detected in total</span></div></div>
+<div class="lbl">Where it was stolen from</div><table class="qt"><thead><tr><th>No.</th><th>Site</th><th></th><th class="num">Copies removed</th><th></th></tr></thead><tbody><tr><td class="n">1</td><td class="fan"><b>fapello.com</b></td><td class="bar"><span><i style="width:100%"></i></span></td><td class="num">2,236</td><td></td></tr><tr><td class="n">2</td><td class="fan"><b>thefappening.plus</b></td><td class="bar"><span><i style="width:37%"></i></span></td><td class="num">818</td><td></td></tr><tr><td class="n">3</td><td class="fan"><b>nudogram.com</b></td><td class="bar"><span><i style="width:32%"></i></span></td><td class="num">722</td><td></td></tr><tr><td class="n">4</td><td class="fan"><b>fapeza.com</b></td><td class="bar"><span><i style="width:31%"></i></span></td><td class="num">703</td><td></td></tr><tr><td class="n">5</td><td class="fan"><b>thefap.net</b></td><td class="bar"><span><i style="width:26%"></i></span></td><td class="num">591</td><td></td></tr></tbody></table>
+<div class="acct"><div class="ac"><span class="tag">How it works</span><h4>Found, filed, removed</h4><p>The sweep scans search results and leak sites for your content every week, files the takedown notices, and follows each one until the copy is gone.</p></div>
+<div class="ac"><span class="tag">What it means</span><h4>Fans find you, not leaks</h4><p>Every removed copy is one less free version sitting between a searching fan and your page.</p></div></div>
+<div class="warnp"><h4>Filed and waiting</h4><p>1,729 notices are filed and waiting on the hosts, on top of the 8,709 already removed. From the RemoveLabs report of 13 November 2026; next update lands in the team chat weekly.</p></div></div><footer class="foot"><span>Prepared by ALTR for Gwen</span><span class="nx">Next, the plan</span><span>06 / 07</span></footer></section><section class="pg "><header class="run"><img src="__LOGO__" alt="ALTR"><span>Gwen, next week</span></header><div class="body"><div class="hd"><div class="hn"><b>07</b><span>Next week</span></div><div class="ht"><h2>Open items first. <em>Then next week.</em></h2><p>Two things from the team chat, then the plan.</p></div></div>
+<div class="lbl" style="color:var(--mint)">Open items, from the team chat</div>
+<div class="oip"><div class="oc"><span class="k">On ours</span><h3>Midweek plan</h3><p>We are rebuilding Wednesday and Thursday around personal conversations with the six fans above, with content chosen for each of them, so the floor moves up from $1,029.</p></div><div class="oc"><span class="k">On your side</span><h3>This week&#x27;s statement</h3><p>Your statement for the week lands today alongside this report, with the platform-reported figures as the directional view and the ledger as the record.</p></div></div>
+<div class="asks4">
+<div class="a4"><span class="lbl">01</span><h4>A warm hello to new faces</h4><p>We open personal conversations with the 8 people who joined this week, starting with Mark, who bought within a day.</p></div>
+<div class="a4"><span class="lbl">02</span><h4>Larger sets at the right price</h4><p>We bring back offers in the $0 to 19 range for your regulars, so the typical purchase climbs back from $14.49 toward $48.</p></div>
+<div class="a4"><span class="lbl">03</span><h4>Build on the rhythm</h4><p>Your strong days came every other day, topping out at $167, so we plan the best offers for those evenings and keep the quiet days personal.</p></div>
+<div class="a4"><span class="lbl" style="color:var(--mint)">On the calendar</span><h4>Thanksgiving, 11 days out</h4><p>Thanksgiving is 11 days away. Now is the moment to plan a cozy autumn set, while there is time to shoot and tease it.</p></div></div>
+<div class="close"><img src="__MARK__" alt=""><div><b>$587</b><small>net this week</small></div>
+<div><p>$587 this week from 18 people who keep coming back, <strong>and $1,507 is well within reach.</strong></p><div class="sig">ALTR, November 15, 2026. Platform-reported figures.</div></div></div></div><footer class="foot"><span>Prepared by ALTR for Gwen</span><span class="nx">Same time next week</span><span>07 / 07</span></footer></section></body></html>

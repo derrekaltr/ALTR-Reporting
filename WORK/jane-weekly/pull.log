@@ -1,0 +1,27 @@
+account acct_208db79cb64c4e64a195f0a27bb896b8 @imjaneford
+saved data/me.json  (0 rows)
+saved data/earn7_total.json  (0 rows)
+saved data/earn7_subscribes.json  (0 rows)
+saved data/earn7_tips.json  (0 rows)
+saved data/earn7_post.json  (0 rows)
+saved data/earn7_messages.json  (0 rows)
+saved data/earn7_stream.json  (0 rows)
+saved data/earn14_total.json  (0 rows)
+saved data/earn7_prev_total.json  (0 rows)
+saved data/visitors7.json  (0 rows)
+saved data/subs_new7.json  (0 rows)
+  ...5 pages, 500 items
+  ...10 pages, 1000 items
+saved data/transactions21.json  (1047 rows)
+ledger: 1047 transactions in 11 pages, oldest 2026-10-25
+saved data/mass7.json  (94 rows)
+mass messages: 94
+saved data/direct7.json  (182 rows)
+direct messages: 182
+saved data/fans_top7_total.json  (0 rows)
+saved data/fans_topall_total.json  (0 rows)
+saved data/fans_active_spent100.json  (124 rows)
+saved data/fans_expired_spent100.json  (603 rows)
+saved data/mass_overview.json  (10 rows)
+saved data/top_message.json  (0 rows)
+done. next: python3 ../../lib/analyze_ledger.py

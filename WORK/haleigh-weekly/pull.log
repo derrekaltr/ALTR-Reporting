@@ -1,0 +1,27 @@
+account acct_76356bfd9a42427f92583dc381043983 @haleighcox
+saved data/me.json  (0 rows)
+saved data/earn7_total.json  (0 rows)
+saved data/earn7_subscribes.json  (0 rows)
+saved data/earn7_tips.json  (0 rows)
+saved data/earn7_post.json  (0 rows)
+saved data/earn7_messages.json  (0 rows)
+saved data/earn7_stream.json  (0 rows)
+saved data/earn14_total.json  (0 rows)
+saved data/earn7_prev_total.json  (0 rows)
+saved data/visitors7.json  (0 rows)
+saved data/subs_new7.json  (0 rows)
+  ...5 pages, 500 items
+saved data/transactions21.json  (845 rows)
+ledger: 845 transactions in 9 pages, oldest 2026-10-25
+saved data/mass7.json  (289 rows)
+  ...5 pages, 500 items
+mass messages: 289
+saved data/direct7.json  (823 rows)
+direct messages: 823
+saved data/fans_top7_total.json  (0 rows)
+saved data/fans_topall_total.json  (0 rows)
+saved data/fans_active_spent100.json  (699 rows)
+saved data/fans_expired_spent100.json  (566 rows)
+saved data/mass_overview.json  (10 rows)
+saved data/top_message.json  (0 rows)
+done. next: python3 ../../lib/analyze_ledger.py

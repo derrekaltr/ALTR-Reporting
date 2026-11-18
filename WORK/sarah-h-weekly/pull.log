@@ -1,0 +1,30 @@
+account acct_5c7a40fa5a34426ea87412e2cae44e4c @brunnettebaby
+saved data/me.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/earn7_total.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/earn7_subscribes.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/earn7_tips.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/earn7_post.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/earn7_messages.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/earn7_stream.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/earn14_total.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/earn7_prev_total.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/visitors7.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/subs_new7.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+walk error 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Please visit Dashboard or use \/authenticat
+saved data/transactions21.json  (0 rows)
+walk error 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Please visit Dashboard or use \/authenticat
+ledger: 0 transactions in 1 pages, oldest None
+saved data/mass7.json  (0 rows)
+walk error 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Please visit Dashboard or use \/authenticat
+mass messages: 0
+saved data/direct7.json  (0 rows)
+direct messages: 0
+saved data/fans_top7_total.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/fans_topall_total.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+fans_active_spent100 error 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/fans_active_spent100.json  (0 rows)
+fans_expired_spent100 error 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/fans_expired_spent100.json  (0 rows)
+saved data/mass_overview.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+saved data/top_message.json  (0 rows)  ERROR 401 {"error":"SESSION_EXPIRED:NEEDS_REAUTHENTICATION","message":"This Account can't be used. It needs re-authentication. Ple
+done. next: python3 ../../lib/analyze_ledger.py

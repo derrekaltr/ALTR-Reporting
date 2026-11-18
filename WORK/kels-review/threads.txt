@@ -1,0 +1,155 @@
+{"n": 135, "median_min": 4, "p75_min": 16, "within_15_pct": 75} 
+unanswered: 2 quiet 10d+: 14
+
+=== Dez (378725709) life $48204 window $28 lastbuy 22.7d
+{'n': 87, 'n_fan': 70, 'n_personal': 17, 'n_blast': 0, 'ppv_sent': 1, 'ppv_unbought': 1, 'last_by': 'fan', 'trail_blasts': 0, 'days_since_fan': 0.4, 'days_since_personal': 4.0, 'unanswered': True, 'unanswered_hours': 9.0, 'med_rt_min': 3}
+  FAN ('2026-10-13T21:45', 'So look at us telling each other our names.. Then you asked me to send more dick pix And followed up early the 2nd day And then wanted a pic of my dick hard…')
+  FAN ('2026-10-13T21:46', 'GRRRRRRR. MY BABY BABY.')
+  FAN ('2026-10-14T04:12', '')
+  FAN ('2026-10-15T11:17', 'ALL WORK AND NO PLAY MAKES JACK A DULL BOY')
+  US  ('2026-10-11T20:53', 'what do you mean tho?', 0, False)
+  US  ('2026-10-11T20:55', "Babe, I'm just checking if your day was going well", 0, False)
+  US  ('2026-10-11T20:58', 'babe you dont miss this?', 0, False)
+  US  ('2026-10-11T21:04', "it looks like you're ignoring it tho", 0, False)
+
+=== Jon (227348797) life $16437 window $0 lastbuy Noned
+{'n': 90, 'n_fan': 35, 'n_personal': 55, 'n_blast': 0, 'ppv_sent': 0, 'ppv_unbought': 0, 'last_by': 'us', 'trail_blasts': 0, 'days_since_fan': 123.8, 'days_since_personal': 123.8, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': 3}
+  FAN ('2026-06-13T22:16', 'That’s bs…you always quote 25 per min or 300 until you cum. You have never said 300 is the starting price and only gets you topless.')
+  FAN ('2026-06-13T23:44', 'We talked about customs and privates one night and you didn’t say 300 to start you said 25 per min or 300.')
+  FAN ('2026-06-13T23:45', 'You also said you didn’t know what you were thinking when you said 500 and it’s 300 and will always be 300 for me')
+  FAN ('2026-06-14T00:13', 'I agree it’s a stupid conversation to have again because honestly the price doesn’t matter at this point because it’s not something I’m interested in anymore. I only brought it up again because you sa')
+  US  ('2026-06-13T21:15', "you know what i show for $300 right? That's the starting price where I barely show my tits, 500 was a fair for you because i wanted to spoil you and because you are special", 0, False)
+  US  ('2026-06-13T22:38', "until you cum doesn't mean i have to show everything...", 0, False)
+  US  ('2026-06-13T23:54', "We've already discussed this and moved on. There's no need to bring it up every time", 0, False)
+  US  ('2026-06-14T00:37', 'okay i understand.. was nice to talk to you anyways.', 0, False)
+
+=== Brett (26094528) life $6386 window $0 lastbuy Noned
+{'n': 19, 'n_fan': 0, 'n_personal': 0, 'n_blast': 19, 'ppv_sent': 3, 'ppv_unbought': 3, 'last_by': 'blast', 'trail_blasts': 19, 'days_since_fan': None, 'days_since_personal': None, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': None}
+  US  ('2026-09-16T08:33', 'Are you naked too rn babes?', 0, True)
+  US  ('2026-09-16T12:32', 'Would you let me bounce on it? ...😈', 0, True)
+  US  ('2026-09-16T16:39', 'Do i have your word that this will never ever leave our dm’s?', 0, True)
+  US  ('2026-10-15T11:56', 'Should I come a little closer or go lower?🙊', 0, True)
+
+=== King Zaddy (9169867) life $5449 window $0 lastbuy Noned
+{'n': 73, 'n_fan': 18, 'n_personal': 54, 'n_blast': 1, 'ppv_sent': 2, 'ppv_unbought': 2, 'last_by': 'us', 'trail_blasts': 0, 'days_since_fan': 67.2, 'days_since_personal': 34.0, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': 4}
+  FAN ('2026-05-31T01:42', 'I beens trying')
+  FAN ('2026-05-31T01:47', 'I wish')
+  FAN ('2026-08-08T13:51', 'Sorry, life has been shit for me :/')
+  FAN ('2026-08-09T15:33', 'I guess')
+  US  ('2026-08-20T06:47', 'hey daddy been missing you a lott', 0, False)
+  US  ('2026-08-20T06:47', "i hope you're doing well", 0, False)
+  US  ('2026-08-26T05:31', "hey daddy i miss you so so much i hope you're not ignoring mee", 0, False)
+  US  ('2026-09-11T19:17', 'Hey, I’m going live at 10 PM EST tonight 👀 Come hang out with me for a bit, I’d love to see you there. Don’t miss it 😘', 0, False)
+
+=== Daddy (112644600) life $3944 window $0 lastbuy Noned
+{'n': 17, 'n_fan': 0, 'n_personal': 0, 'n_blast': 17, 'ppv_sent': 2, 'ppv_unbought': 2, 'last_by': 'blast', 'trail_blasts': 17, 'days_since_fan': None, 'days_since_personal': None, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': None}
+  US  ('2026-09-16T08:36', 'Are you naked too rn babes?', 0, True)
+  US  ('2026-09-16T12:35', 'Would you let me bounce on it? ...😈', 0, True)
+  US  ('2026-09-16T16:33', 'Do i have your word that this will never ever leave our dm’s?', 0, True)
+  US  ('2026-10-15T11:59', 'Should I come a little closer or go lower?🙊', 0, True)
+
+=== vittom02 (525881642) life $3821 window $44 lastbuy 3.0d
+{'n': 99, 'n_fan': 65, 'n_personal': 34, 'n_blast': 0, 'ppv_sent': 1, 'ppv_unbought': 1, 'last_by': 'fan', 'trail_blasts': 0, 'days_since_fan': 2.6, 'days_since_personal': 3.0, 'unanswered': True, 'unanswered_hours': 63.1, 'med_rt_min': 6}
+  FAN ('2026-10-12T21:27', 'Please bby, help me😓')
+  FAN ('2026-10-12T21:27', 'At least u😓😓')
+  FAN ('2026-10-13T05:09', 'Ok nvm')
+  FAN ('2026-10-13T05:10', 'U really lost me this time ngl💔')
+  US  ('2026-10-12T19:21', 'have something for you babe', 100, False)
+  US  ('2026-10-12T19:28', 'unlock this first\\', 0, False)
+  US  ('2026-10-12T20:58', 'watch this if you want to talk to me', 0, False)
+  US  ('2026-10-12T21:26', 'tip me first', 0, False)
+
+=== Jack (372926070) life $3046 window $0 lastbuy Noned
+{'n': 78, 'n_fan': 25, 'n_personal': 50, 'n_blast': 3, 'ppv_sent': 0, 'ppv_unbought': 0, 'last_by': 'us', 'trail_blasts': 0, 'days_since_fan': 167.8, 'days_since_personal': 34.0, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': 5}
+  FAN ('2026-03-22T08:30', 'Oh')
+  FAN ('2026-04-30T22:33', 'What does your post mean internet bf application?')
+  FAN ('2026-05-01T00:50', 'Oh my bad')
+  FAN ('2026-05-01T01:31', 'Yes')
+  US  ('2026-08-05T18:32', "Hey Jack. 🥹 I just realized it's been a while since we last talked. I hope everything's been going well on your end. You randomly crossed my mind today, so I wanted to check in and say hi. No pressure", 0, False)
+  US  ('2026-08-11T09:16', 'you know what’s funny? i was remembering some of our conversations and realized how long it’s been since we actually talked 🥺 what have you been up to?', 0, False)
+  US  ('2026-08-13T19:01', 'hey jack 😘 Sooo, when exactly were you planning on coming back to keep me company? 😏', 0, False)
+  US  ('2026-09-11T19:18', 'Hey, I’m going live at 10 PM EST tonight 👀 Come hang out with me for a bit, I’d love to see you there. Don’t miss it 😘', 0, False)
+
+=== The Casual Conversationalist (335591164) life $2874 window $0 lastbuy Noned
+{'n': 17, 'n_fan': 0, 'n_personal': 0, 'n_blast': 17, 'ppv_sent': 2, 'ppv_unbought': 2, 'last_by': 'blast', 'trail_blasts': 17, 'days_since_fan': None, 'days_since_personal': None, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': None}
+  US  ('2026-09-16T08:38', 'Are you naked too rn babes?', 0, True)
+  US  ('2026-09-16T12:35', 'Would you let me bounce on it? ...😈', 0, True)
+  US  ('2026-09-16T16:35', 'Do i have your word that this will never ever leave our dm’s?', 0, True)
+  US  ('2026-10-15T11:56', 'Should I come a little closer or go lower?🙊', 0, True)
+
+=== CVG1126 (269593090) life $2680 window $0 lastbuy Noned
+{'n': 18, 'n_fan': 0, 'n_personal': 1, 'n_blast': 17, 'ppv_sent': 2, 'ppv_unbought': 2, 'last_by': 'blast', 'trail_blasts': 1, 'days_since_fan': None, 'days_since_personal': 27.9, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': None}
+  US  ('2026-09-16T12:34', 'Would you let me bounce on it? ...😈', 0, True)
+  US  ('2026-09-16T16:38', 'Do i have your word that this will never ever leave our dm’s?', 0, True)
+  US  ('2026-09-17T23:09', 'hello Chris', 0, False)
+  US  ('2026-10-15T12:02', 'Should I come a little closer or go lower?🙊', 0, True)
+
+=== Mason Slade (24450858) life $2406 window $28 lastbuy 22.7d
+{'n': 19, 'n_fan': 0, 'n_personal': 3, 'n_blast': 16, 'ppv_sent': 2, 'ppv_unbought': 2, 'last_by': 'us', 'trail_blasts': 0, 'days_since_fan': None, 'days_since_personal': 23.8, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': None}
+  US  ('2026-09-16T16:33', 'Do i have your word that this will never ever leave our dm’s?', 0, True)
+  US  ('2026-09-22T00:32', 'Wanna talk?', 0, False)
+  US  ('2026-09-22T01:08', "You can't just disappear nd expect me not to notice", 0, False)
+  US  ('2026-09-22T01:09', 'Are you ignoring me babe?', 0, False)
+
+=== Billy77 (337233986) life $2396 window $52 lastbuy 0.3d
+{'n': 24, 'n_fan': 8, 'n_personal': 11, 'n_blast': 5, 'ppv_sent': 7, 'ppv_unbought': 6, 'last_by': 'us', 'trail_blasts': 0, 'days_since_fan': 0.2, 'days_since_personal': 0.2, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': 6}
+  FAN ('2026-10-15T03:44', 'Dildo')
+  FAN ('2026-10-15T03:54', 'Send it for 65 😘')
+  FAN ('2026-10-15T14:02', 'You showed me this one already 😔')
+  FAN ('2026-10-15T14:18', 'You have a different one? You i already seen that one')
+  US  ('2026-10-15T04:07', 'watch me stretch out my pussy while i fuck my toy so deep making me loose all control...come claim your throne baby', 65, False)
+  US  ('2026-10-15T11:55', 'Should I come a little closer or go lower?🙊', 0, True)
+  US  ('2026-10-15T14:09', 'Did I make that dick hard?🙊', 0, False)
+  US  ('2026-10-15T14:22', 'Here you go daddy....😘too hot handle💦🙊', 95.67, False)
+
+=== Platidaddy (67047437) life $2357 window $0 lastbuy Noned
+{'n': 72, 'n_fan': 8, 'n_personal': 19, 'n_blast': 45, 'ppv_sent': 8, 'ppv_unbought': 7, 'last_by': 'us', 'trail_blasts': 0, 'days_since_fan': 186.7, 'days_since_personal': 34.0, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': 7}
+  FAN ('2026-04-12T02:34', 'Bout to go to bed lol')
+  FAN ('2026-04-12T02:34', 'Seen where we left off lastnight lol fell asleep right away had to be up at 5 for work')
+  FAN ('2026-04-12T02:43', 'Do I ever get my dick rate from the spin from the live I sent lol')
+  FAN ('2026-04-12T02:55', 'Yes')
+  US  ('2026-07-27T16:20', "heyyy josh I'm letting you know before everyone else. I'll be going LIVE tomorrow at 10 PM EST . Promise you'll come keep me company? 😘💋", 0, False)
+  US  ('2026-07-28T22:10', 'I have a feeling you’re going to like what I saved for you 💕', 0, True)
+  US  ('2026-08-21T18:29', 'Baby, I woke up so horny today that I had to touch my pussy non-stop and it felt so juicy 🥵 I came really hard and moaned really loudly 🔥 My pussy is dripping right now for you 💦💦 Enjoy this bundle wh', 20, True)
+  US  ('2026-09-11T19:18', 'Hey, I’m going live at 10 PM EST tonight 👀 Come hang out with me for a bit, I’d love to see you there. Don’t miss it 😘', 0, False)
+
+=== u4180958 (4180958) life $2081 window $64 lastbuy 11.4d
+{'n': 19, 'n_fan': 0, 'n_personal': 2, 'n_blast': 17, 'ppv_sent': 3, 'ppv_unbought': 1, 'last_by': 'blast', 'trail_blasts': 1, 'days_since_fan': None, 'days_since_personal': 11.4, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': None}
+  US  ('2026-09-16T16:42', 'Do i have your word that this will never ever leave our dm’s?', 0, True)
+  US  ('2026-10-04T11:36', "just pure g/g moanment🥵 i've never shown this angle", 99, False)
+  US  ('2026-10-04T11:40', "deffo, this one's too much filth for you Matt", 0, False)
+  US  ('2026-10-15T11:59', 'Should I come a little closer or go lower?🙊', 0, True)
+
+=== Hell2yeah (8382905) life $2061 window $0 lastbuy 81.6d
+{'n': 38, 'n_fan': 1, 'n_personal': 7, 'n_blast': 30, 'ppv_sent': 6, 'ppv_unbought': 5, 'last_by': 'us', 'trail_blasts': 0, 'days_since_fan': 81.6, 'days_since_personal': 34.0, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': 6}
+  FAN ('2026-07-26T06:00', 'Made it sound like it was a BG sextape and it wasn’t 😞')
+  US  ('2026-07-28T22:10', 'I have a feeling you’re going to like what I saved for you 💕', 0, True)
+  US  ('2026-08-13T19:03', 'Sooo when exactly were you planning on coming back to keep me company? 😏😘', 0, False)
+  US  ('2026-08-21T18:35', 'Baby, I woke up so horny today that I had to touch my pussy non-stop and it felt so juicy 🥵 I came really hard and moaned really loudly 🔥 My pussy is dripping right now for you 💦💦 Enjoy this bundle wh', 20, True)
+  US  ('2026-09-11T19:19', 'Hey, I’m going live at 10 PM EST tonight 👀 Come hang out with me for a bit, I’d love to see you there. Don’t miss it 😘', 0, False)
+
+=== Bubba (49028256) life $2058 window $0 lastbuy Noned
+{'n': 17, 'n_fan': 0, 'n_personal': 0, 'n_blast': 17, 'ppv_sent': 2, 'ppv_unbought': 2, 'last_by': 'blast', 'trail_blasts': 17, 'days_since_fan': None, 'days_since_personal': None, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': None}
+  US  ('2026-09-16T08:36', 'Are you naked too rn babes?', 0, True)
+  US  ('2026-09-16T12:38', 'Would you let me bounce on it? ...😈', 0, True)
+  US  ('2026-09-16T16:42', 'Do i have your word that this will never ever leave our dm’s?', 0, True)
+  US  ('2026-10-15T11:59', 'Should I come a little closer or go lower?🙊', 0, True)
+
+=== BigChocky (17574999) life $2022 window $0 lastbuy Noned
+{'n': 54, 'n_fan': 3, 'n_personal': 47, 'n_blast': 4, 'ppv_sent': 1, 'ppv_unbought': 1, 'last_by': 'us', 'trail_blasts': 0, 'days_since_fan': 256.4, 'days_since_personal': 34.0, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': 19}
+  FAN ('2026-02-01T07:23', 'You so fkng hot baby 🫣. Yes I’m not often here anymore for multiple reasons but if you want me to have your number I can take it 🙃')
+  FAN ('2026-02-01T07:24', 'I miss your last live but will try to be there for the next one😊 and I truly hope that your trip making you happy and your fulling your batteries 😉')
+  FAN ('2026-02-01T09:40', 'Yes you can give it to me')
+  US  ('2026-07-28T22:07', 'I have a feeling you’re going to like what I saved for you 💕', 0, True)
+  US  ('2026-08-13T19:02', 'Sooo when exactly were you planning on coming back to keep me company? 😏😘', 0, False)
+  US  ('2026-08-21T18:26', 'Baby, I woke up so horny today that I had to touch my pussy non-stop and it felt so juicy 🥵 I came really hard and moaned really loudly 🔥 My pussy is dripping right now for you 💦💦 Enjoy this bundle wh', 20, True)
+  US  ('2026-09-11T19:18', 'Hey, I’m going live at 10 PM EST tonight 👀 Come hang out with me for a bit, I’d love to see you there. Don’t miss it 😘', 0, False)
+
+=== JJ (258169724) life $2017 window $0 lastbuy 90.7d
+{'n': 39, 'n_fan': 0, 'n_personal': 5, 'n_blast': 34, 'ppv_sent': 7, 'ppv_unbought': 7, 'last_by': 'us', 'trail_blasts': 0, 'days_since_fan': None, 'days_since_personal': 34.0, 'unanswered': False, 'unanswered_hours': 0, 'med_rt_min': None}
+  US  ('2026-07-25T02:39', 'live with my girl @evesempire !! see you there sugar 😉', 0, True)
+  US  ('2026-07-28T22:07', 'I have a feeling you’re going to like what I saved for you 💕', 0, True)
+  US  ('2026-08-21T18:34', 'Baby, I woke up so horny today that I had to touch my pussy non-stop and it felt so juicy 🥵 I came really hard and moaned really loudly 🔥 My pussy is dripping right now for you 💦💦 Enjoy this bundle wh', 20, True)
+  US  ('2026-09-11T19:19', 'Hey, I’m going live at 10 PM EST tonight 👀 Come hang out with me for a bit, I’d love to see you there. Don’t miss it 😘', 0, False)
+
+written data/threads_analysis.json

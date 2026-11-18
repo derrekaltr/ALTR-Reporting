@@ -1,0 +1,10 @@
+data
+qa
+build_premium.py
+deploy.sh
+takedown.sh
+slug.txt
+template.html
+print-template.html
+report.json
+.gitignore

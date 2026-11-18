@@ -1,0 +1,31 @@
+{
+ "ledger_net": 1037,
+ "window_net": 273,
+ "prev_net": 450,
+ "change_pct": -39.3,
+ "paying_fans_ledger": 20,
+ "paying_fans_window": 8,
+ "undo_n": 1,
+ "undo_net": 17,
+ "cohort_n": 9,
+ "cohort_net_window": 39,
+ "cohort_net_ledger": 380,
+ "top10_share_window": 100.0
+}
+window {'days': 7, 'net': 273, 'net_day': 39, 'msg': 273, 'tips': 0, 'subs': 0, 'n_msg': 13, 'n_tip': 0, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 8, 'median_ticket': 18.99, 'avg_ticket': 26.24}
+previous {'days': 7, 'net': 450, 'net_day': 64, 'msg': 446, 'tips': 4, 'subs': 0, 'n_msg': 17, 'n_tip': 1, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 8, 'median_ticket': 14.940000000000001, 'avg_ticket': 31.24}
+mass {'n': 79, 'per_day': 11.3, 'paid': 0, 'sends': 416439, 'views': 1617, 'view_rate': 0.39, 'purchases': 0, 'gross': 0}
+dm {'sent': 46, 'per_day': 6.6, 'bought': 10, 'rate': 21.7, 'gross': 281, 'median_price': 20.515, 'fans_reached': 29, 'unsent': 1}
+
+cohort (9):
+   4183635 u4183635           life=   1205 ledger=   229 win=   39 prev=    0 last=5.7d sub=True max=90.0 sess=3
+  32563753 Asag               life=   1938 ledger=   151 win=    0 prev=  151 last=10.8d sub=True max=99.0 sess=2
+  16348328 Micheal            life=   3068 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 537787790 Alfie              life=   7651 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 445022800 Tom                life=   1042 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 500849361 u500849361         life=   2871 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 594853077 Nick               life=   2204 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+ 127832759 Simon              life=   1509 ledger=     0 win=    0 prev=    0 last=Noned sub=False max=0 sess=0
+ 163616445 Jack               life=   2069 ledger=     0 win=    0 prev=    0 last=Noned sub=True max=0 sess=0
+
+written data/cohort.json. next: python3 ../../lib/pull_threads.py (then analyze_threads.py)

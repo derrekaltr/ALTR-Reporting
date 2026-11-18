@@ -1,0 +1,57 @@
+index.html: 166 KB
+print.html: 319 KB
+ALTR-naomi-weekly-nov15.pdf: 791 KB
+
+== qa_pdf (must end with 'issues 0') ==
+pages 6
+p1 WRAPPED 19pt 2 lines: A quieter week one big Friday Three new names worth knowing
+p1 WRAPPED 10pt 2 lines: on the week before $1,100
+p1 WRAPPED 10pt 2 lines: net this week 24
+p1 WRAPPED 11pt 2 lines: The short version 02
+p1 WRAPPED 11pt 2 lines: The week 03
+p1 WRAPPED 11pt 2 lines: Where it came from 04
+p1 WRAPPED 11pt 2 lines: Fans to know 05
+p1 WRAPPED 11pt 2 lines: Next week 06
+p2 WRAPPED 22pt 2 lines: Everything on one page. Start here.
+p2 WRAPPED 20pt 2 lines: $641 What your top five fans spent between them, 58% of the week.
+p2 WRAPPED 20pt 2 lines: 23,493 Profile visits in seven days, and 24 fans bought something.
+p2 WRAPPED 10pt 3 lines: Brand new and spent $294 in one night, topping out at $107.12.
+p2 WRAPPED 10pt 2 lines: Spent $184 this week across 3 visits, a regular in the making.
+p2 WRAPPED 10pt 2 lines: Spent $72 with a single buy of $89.99, worth a warm hello.
+p2 WRAPPED 10pt 2 lines: The best releases stack from Thursday night into Friday.
+p2 WRAPPED 10pt 2 lines: Offers stay in the $70 to 99 and $20 to 39 ranges that worked.
+p2 WRAPPED 10pt 2 lines: All 18 new fans get a personal hello inside two days.
+p3 WRAPPED 22pt 2 lines: $1,100 this week, Friday November 13 led the way
+p3 WRAPPED 9pt 7 lines: Sun 8 Mon 9 Tue 10 Wed 11 Thu 12 Fri 13 Sat 14
+p3 WRAPPED 9pt 2 lines: net per day 24
+p3 WRAPPED 9pt 2 lines: fans bought something $18.99
+p3 WRAPPED 9pt 2 lines: median purchase 23,493
+p3 WRAPPED 10pt 2 lines: The one that landed best went out Sunday at $0 and was bought 0 times.
+p4 WRAPPED 22pt 2 lines: Messages first. 87% of net.
+p4 WRAPPED 10pt 4 lines: 1 Nov 8 $25 2% of the week
+p4 WRAPPED 10pt 4 lines: 2 Nov 9 $37 3% of the week
+p4 WRAPPED 10pt 4 lines: 3 Nov 10 $212 19% of the week
+p4 WRAPPED 10pt 4 lines: 4 Nov 11 $30 3% of the week
+p4 WRAPPED 10pt 4 lines: 5 Nov 12 $24 2% of the week
+p4 WRAPPED 10pt 4 lines: 6 Nov 13 $586 53% of the week
+p4 WRAPPED 10pt 4 lines: 7 Nov 14 $170 15% of the week
+p4 WRAPPED 9pt 2 lines: gross before platform fee 87%
+p4 WRAPPED 9pt 2 lines: of net from messages $157
+p4 WRAPPED 9pt 2 lines: average day $18.99
+p5 WRAPPED 22pt 2 lines: The week's top eight, and their stories.
+p5 WRAPPED 10pt 2 lines: $294 Bought 2 days ago
+p5 WRAPPED 10pt 3 lines: 3 visits, up to $99 $184 Bought 2 days ago
+p5 WRAPPED 10pt 2 lines: $72 Bought 1 day ago
+p5 WRAPPED 10pt 3 lines: 1 buying session, top $29.22 $50 Bought 5 days ago
+p5 WRAPPED 10pt 3 lines: 1 buying session, top $39.88 $41 Bought 5 days ago
+p5 WRAPPED 10pt 3 lines: 2 buying sessions, top $32.45 $37 Bought 1 day ago
+p5 WRAPPED 10pt 3 lines: 3 buying sessions, top $28.14 $37 Bought 1 day ago
+p5 WRAPPED 10pt 3 lines: 1 buying session, top $32 $34 Bought 2 days ago
+p5 WRAPPED 9pt 2 lines: top five, this week 58%
+p5 WRAPPED 9pt 2 lines: their share of the week $294
+p5 WRAPPED 9pt 2 lines: the number one fan $107.12
+p6 WRAPPED 22pt 2 lines: Open items first. Then next week.
+p6 WRAPPED 11pt 2 lines: evening made $586. We build the next week around that night.
+issues 0
+
+Now LOOK at every qa/q<N>a.png and q<N>b.png before deploying. The scanner catches what it can; the renders catch the rest.

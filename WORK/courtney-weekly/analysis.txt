@@ -1,0 +1,22 @@
+{
+ "ledger_net": 952,
+ "window_net": 952,
+ "prev_net": 0,
+ "change_pct": null,
+ "paying_fans_ledger": 7,
+ "paying_fans_window": 7,
+ "undo_n": 0,
+ "undo_net": 0,
+ "cohort_n": 0,
+ "cohort_net_window": 0,
+ "cohort_net_ledger": 0,
+ "top10_share_window": 100.0
+}
+window {'days': 7, 'net': 952, 'net_day': 136, 'msg': 952, 'tips': 0, 'subs': 0, 'n_msg': 40, 'n_tip': 0, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 7, 'median_ticket': 10.0, 'avg_ticket': 29.75}
+previous {'days': 7, 'net': 0, 'net_day': 0, 'msg': 0, 'tips': 0, 'subs': 0, 'n_msg': 0, 'n_tip': 0, 'n_new_subs': 0, 'n_rebills': 0, 'buyers': 0, 'median_ticket': 0, 'avg_ticket': 0}
+mass {'n': 1, 'per_day': 0.1, 'paid': 0, 'sends': 40, 'views': 0, 'view_rate': 0.0, 'purchases': 0, 'gross': 0}
+dm {'sent': 48, 'per_day': 6.9, 'bought': 40, 'rate': 83.3, 'gross': 1190, 'median_price': 10.0, 'fans_reached': 10, 'unsent': 1}
+
+cohort (0):
+
+written data/cohort.json. next: python3 ../../lib/pull_threads.py (then analyze_threads.py)
