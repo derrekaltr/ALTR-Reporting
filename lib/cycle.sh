@@ -21,6 +21,19 @@ PUBLISHED=""; FAILED=""
 
 cd "$KIT" || { notify "CYCLE FAILED: kit folder missing"; exit 1; }
 
+# Pull the team's latest code before running, so changes made during the fortnight go live on the
+# next scheduled run without anyone touching this Mac. Never blocks the run if the remote is down.
+if git -C "$KIT" remote | grep -q .; then
+  BEFORE=$(git -C "$KIT" rev-parse --short HEAD 2>/dev/null)
+  if git -C "$KIT" pull --ff-only --quiet 2>/dev/null; then
+    AFTER=$(git -C "$KIT" rev-parse --short HEAD 2>/dev/null)
+    [ "$BEFORE" != "$AFTER" ] && echo "code updated $BEFORE -> $AFTER" && CODE_NOTE="
+Code updated to $AFTER before this run: $(git -C "$KIT" log --format=%s -1)"
+  else
+    echo "git pull skipped (local changes or remote unreachable)"
+  fi
+fi
+
 # 1. connectivity / credit / auth preflight
 ACCTS=$($PY lib/ofapi.py accounts 2>&1)
 echo "$ACCTS" | grep -qE "No OnlyFans API key|\"_error\"|insufficient credits|HTTP 402" && flag "OnlyFans API unreachable or out of credits"
@@ -151,6 +164,7 @@ else
 fi
 [ -n "$FAILED" ] && MSG="$MSG\nFailed during the run:$FAILED"
 [ -n "$BLOCK" ] && MSG="$MSG\nBLOCKERS:$(echo -e "$BLOCK")"
+[ -n "$CODE_NOTE" ] && MSG="$MSG$CODE_NOTE"
 notify "$MSG"
 echo "verified:$VERIFIED"; echo "unverified:$UNVERIFIED"
 echo "published:$PUBLISHED"; echo "failed:$FAILED"; echo "===== done $(date) ====="
