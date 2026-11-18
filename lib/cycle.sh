@@ -37,6 +37,18 @@ fi
 # 1. connectivity / credit / auth preflight
 ACCTS=$($PY lib/ofapi.py accounts 2>&1)
 echo "$ACCTS" | grep -qE "No OnlyFans API key|\"_error\"|insufficient credits|HTTP 402" && flag "OnlyFans API unreachable or out of credits"
+# Listing accounts is free, so it passes even with a zero balance; only a data endpoint reveals an
+# empty wallet. Probe one (1 credit) or a whole run silently pulls nothing. (Sarah H, Nov 18 2026.)
+FIRST_ACCT=$(head -1 "$KIT/lib/roster.txt" | cut -d"|" -f2)
+CREDIT_PROBE=$($PY -c "
+import sys; sys.path.insert(0, 'lib')
+from ofapi import raw
+d = raw('https://app.onlyfansapi.com/api/$FIRST_ACCT/me')
+print('BLOCKED' if isinstance(d, dict) and '_error' in d else 'OK')" 2>&1 | tail -1)
+if [ "$CREDIT_PROBE" != "OK" ]; then
+  notify "CYCLE STOPPED before pulling: the OnlyFans API has no credits left, so no model data can be fetched. Top up at app.onlyfansapi.com, then rerun lib/cycle.sh. Nothing else was spent."
+  echo "ABORT: onlyfans api out of credits"; exit 1
+fi
 # Only warn about accounts we actually report on. The dashboard holds departed models and spare
 # pages too, and counting those cried wolf ("10 need re-auth" when all 17 rostered ones were fine).
 AF_LIST=$(echo "$ACCTS" | $PY -c '
